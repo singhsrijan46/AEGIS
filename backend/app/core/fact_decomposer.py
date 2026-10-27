@@ -32,15 +32,14 @@ class AtomicFactDecomposer:
 
     def decompose(self, text: str) -> List[AtomicProposition]:
         propositions = []
-        # Split text into sentences with span tracking
-        sentence_matches = list(re.finditer(r'[^.!?]+[.!?]?', text))
+        # Split text into sentences without breaking on decimal numbers (e.g. 99.999% or $49.99)
+        sentence_matches = list(re.finditer(r'(?:(?:\d+\.\d+)|[^.!?])+(?:[.!?]+(?:\s+|$)|$)', text))
 
         for match in sentence_matches:
             sentence = match.group(0).strip()
             if not sentence:
                 continue
             s_start = match.start()
-            s_end = match.end()
 
             # 1. Check for Security Certification claims
             sec_matches = list(self.SECURITY_PATTERN.finditer(sentence))
@@ -55,16 +54,16 @@ class AtomicFactDecomposer:
                 ))
 
             # 2. Check for SLA / Uptime claims
-            sla_matches = list(self.SLA_PATTERN.finditer(sentence))
-            if sla_matches:
-                for sm in sla_matches:
-                    propositions.append(AtomicProposition(
-                        raw_sentence=sentence,
-                        proposition=f"Inkloom guarantees SLA uptime: {sm.group(0)}",
-                        span=(s_start + sm.start(), s_start + sm.end()),
-                        claim_type="SLA",
-                        extracted_entities=[sm.group(0)]
-                    ))
+            sla_matches = list(re.finditer(r'(?:99\.\d+%\s*(?:uptime|availability|sla)?|\buptime\b)', sentence, re.IGNORECASE))
+            for sm in sla_matches:
+                matched_val = sm.group(0)
+                propositions.append(AtomicProposition(
+                    raw_sentence=sentence,
+                    proposition=f"Inkloom guarantees SLA uptime: {matched_val}",
+                    span=(s_start + sm.start(), s_start + sm.end()),
+                    claim_type="SLA",
+                    extracted_entities=[matched_val]
+                ))
 
             # 3. Check for Pricing claims
             price_matches = list(self.PRICING_PATTERN.finditer(sentence))
