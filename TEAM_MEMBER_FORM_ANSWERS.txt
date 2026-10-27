@@ -1,0 +1,219 @@
+================================================================================
+VERIBRAND AI™ — CODEX 48 HACKATHON
+TEAM MEMBER SUBMISSION FORM ANSWERS (3 MEMBERS)
+================================================================================
+
+================================================================================
+MEMBER 1: AI / NLP & KNOWLEDGE GRAPH LEAD
+================================================================================
+
+[QUESTION 1]
+Your Role in the Team *
+(In a few words — for example: backend, frontend, ML, design, research, documentation. If you did several, name them all.)
+
+ANSWER:
+ML, NLP Research, Knowledge Graphs, Prompt Engineering, Backend
+
+
+[QUESTION 2]
+Explain your Solution in 4-5 lines *
+
+ANSWER:
+VeriBrand AI™ is an enterprise pre-publication governance platform that verifies marketing collateral against brand guidelines, regulatory rules, and factual records in real time. It decomposes draft text into verifiable atomic claims using enhanced fact-checking models (E-AFV) and validates them against an enterprise Temporal Knowledge Graph. For visual assets, it enforces deterministic pixel-level colorimetry and WCAG accessibility standards. When violations are detected, it generates intent-preserving, minimal-perturbation rewrites directly inside authoring tools like Google Docs and Figma.
+
+
+[QUESTION 3]
+What problem does your project solve, and for whom? *
+
+ANSWER:
+It solves the high risk of publishing off-brand messaging, outdated product claims, hallucinated metrics, and regulatory non-compliance (FTC § 5 / SEC 206(4)-1) across decentralized marketing and agency teams. It is built for:
+1. Brand & Marketing Directors: Eliminates manual proofreading bottlenecks and recovers ~20% of creative bandwidth.
+2. Legal & Compliance Officers: Enforces strict factual substantiation and provides tamper-proof audit trails.
+3. Content Creators & Agencies: Delivers instant, in-flight feedback that corrects violations without destroying the author's tone.
+
+
+[QUESTION 4]
+How does it work? Explain your technical approach. *
+
+ANSWER:
+Our architecture combines deterministic rules with agentic multi-hop reasoning across 5 validated steps:
+1. Brand Ingestion: Ingests brand PDFs into a machine-readable Brand Constitution and a Neo4j Temporal Knowledge Graph tagging facts with validity timestamps.
+2. Atomic Verification: Decomposes complex assertions into atomic propositions (E-AFV) and generates decoupled verification queries (Chain-of-Verification) to eliminate confirmation bias.
+3. Reflection & Quality Gating: Employs Self-RAG reflection tokens and RAGAS faithfulness thresholds (>= 0.85) to score confidence before approval.
+4. Minimal Perturbation Rewriting: Uses Levenshtein-constrained token masking to fix flagged spans while keeping surrounding author voice intact (cosine >= 0.94).
+5. Publishing Gates: Triggers pre-publish CMS webhooks and Slack approval bots based on Green/Amber/Red risk triage.
+
+
+[QUESTION 5]
+Technology and tools you are using *
+
+ANSWER:
+Python 3.11, PyTorch, LangGraph, Neo4j (Cypher), Qdrant Vector DB, HuggingFace Transformers, vLLM, Vale AST, RAGAS, FastAPI.
+
+
+[QUESTION 6]
+What is built and working right now, and what is still planned? *
+
+ANSWER:
+Built & Working Right Now:
+- Automated PDF Brand Vault compiler transforming static brand books into structured JSON rule trees.
+- E-AFV atomic claim extraction and decoupled CoVe question planning pipeline tested on benchmark enterprise assertions.
+- Neo4j Temporal Knowledge Graph schema with time-bounded entity verification (t_start, t_end).
+- Self-RAG reflection and RAGAS faithfulness scoring gates.
+
+Still Planned (Stepwise Roadmap):
+- Completing native Google Docs and Figma WebSocket sidecar connector packaging (Step 4).
+- Implementing automated CMS pre-publish blocking webhooks and Slack approval bots (Step 5).
+- HDBSCAN unsupervised clustering on creator rule overrides for guideline ambiguity heatmaps (Step 5).
+
+
+[QUESTION 7]
+What did YOU personally build or contribute? *
+
+ANSWER:
+I designed and implemented the core AI reasoning and factual verification pipeline. Specifically, I built the E-AFV atomic claim decomposition module based on FActScore, the decoupled Chain-of-Verification (CoVe) query generation engine, and orchestrated the multi-agent workflow using LangGraph. I also developed the Neo4j Temporal Knowledge Graph schema to stop temporal hallucinations (expired pricing/SLAs), integrated the RAGAS faithfulness evaluation gate, and authored the Minimal Perturbation Edit Distance (MPED) rewriter algorithm.
+
+
+
+================================================================================
+MEMBER 2: COMPUTER VISION, MULTIMODAL & SECURITY LEAD
+================================================================================
+
+[QUESTION 1]
+Your Role in the Team *
+(In a few words — for example: backend, frontend, ML, design, research, documentation. If you did several, name them all.)
+
+ANSWER:
+Computer Vision, Multimodal AI, Security, Infrastructure & DevOps
+
+
+[QUESTION 2]
+Explain your Solution in 4-5 lines *
+
+ANSWER:
+VeriBrand AI™ is an enterprise brand-governance and pre-publication verification platform that prevents off-brand, non-compliant, or factually inaccurate content from reaching production. It combines atomic NLP claim verification with deterministic OpenCV computer vision for exact pixel-level brand color and accessibility auditing. Operating within an air-gapped private VPC, it guarantees zero data leakage for embargoed corporate collateral. It replaces manual compliance bottlenecks with real-time in-line review diffs and automated CMS publishing gates.
+
+
+[QUESTION 3]
+What problem does your project solve, and for whom? *
+
+ANSWER:
+It solves brand inconsistency, visual asset degradation, inaccessible digital collateral, and proprietary data leakage through public cloud AI models. It is built for:
+1. Creative & Design Leads: Enforces exact brand color swatches, logo clear-space rules, and typographic standards.
+2. Accessibility & Legal Officers: Eliminates WCAG 2.1 contrast violations and ADA accessibility lawsuit risks.
+3. Enterprise Security & IT: Ensures pre-release press releases and confidential product specs never leak to third-party LLM providers.
+
+
+[QUESTION 4]
+How does it work? Explain your technical approach. *
+
+ANSWER:
+We implement a multi-stage deterministic and agentic pipeline:
+1. Air-Gapped Privacy Boundary: Incoming drafts pass through Microsoft Presidio for PII scrubbing before entering an on-premise/private VPC execution environment.
+2. Multimodal Document Layout Parsing: LayoutLMv3 and DocOwl 1.5 extract visual guidelines, logo buffers, and color palettes from brand manuals.
+3. Deterministic Pixel Math: OpenCV calculates CIELAB Delta-E 00 color distance against approved swatches (Delta-E < 2.0) and verifies WCAG 2.1 relative luminance contrast ratios (4.5:1 for body, 3.0:1 for headers).
+4. Spatial Layout Auditing: Validates logo safe-zone buffer boundaries (S >= 0.5 * H_logo) and aspect ratio distortion.
+5. Cryptographic Compliance: Every audited asset generates an immutable SHA-256 compliance token recorded in PostgreSQL for regulatory defensibility.
+
+
+[QUESTION 5]
+Technology and tools you are using *
+
+ANSWER:
+OpenCV (Python/C++), LayoutLMv3, PyTorch, Microsoft Presidio, Docker, AWS Private VPC, PostgreSQL, FastAPI, DocOwl 1.5.
+
+
+[QUESTION 6]
+What is built and working right now, and what is still planned? *
+
+ANSWER:
+Built & Working Right Now:
+- Deterministic OpenCV CIELAB Delta-E 00 color matching engine calibrated to Delta-E < 2.0.
+- WCAG 2.1 AA/AAA relative luminance contrast formula calculator for text and background regions.
+- LayoutLMv3 spatial boundary and logo exclusion zone detector.
+- Air-gapped VPC sandbox setup with Microsoft Presidio PII redaction pipeline.
+
+Still Planned (Stepwise Roadmap):
+- Production hardening of the Vision-Language Model (VLM) screen-reader alt-text descriptive auditor (Step 3).
+- SHA-256 tamper-proof cryptographic audit ledger integration with enterprise database triggers (Step 5).
+- End-to-end containerized Helm chart packaging for single-tenant enterprise deployments (Step 5).
+
+
+[QUESTION 7]
+What did YOU personally build or contribute? *
+
+ANSWER:
+I architected the multimodal computer vision engine and the platform's security infrastructure. I developed the OpenCV CIELAB Delta-E 00 colorimetry pipeline to replace hallucination-prone VLM color checks with deterministic mathematical precision. I built the WCAG 2.1 relative luminance contrast verification math and the LayoutLMv3 logo safe-zone boundary checker. Additionally, I implemented the Presidio PII sanitization gateway and designed the zero-data-retention (ZDR) air-gapped VPC boundary to ensure complete data confidentiality.
+
+
+
+================================================================================
+MEMBER 3: FULL-STACK PRODUCT & INTEGRATIONS LEAD
+================================================================================
+
+[QUESTION 1]
+Your Role in the Team *
+(In a few words — for example: backend, frontend, ML, design, research, documentation. If you did several, name them all.)
+
+ANSWER:
+Frontend, Backend, UI/UX Design, Extensions & API Integrations
+
+
+[QUESTION 2]
+Explain your Solution in 4-5 lines *
+
+ANSWER:
+VeriBrand AI™ is an in-flight brand governance and content verification platform that integrates directly into enterprise authoring workflows. It audits marketing copy and creative banners in real time against approved brand books, regulatory requirements, and factual databases. Violations are flagged with in-line, color-coded diff suggestions that preserve the author's voice rather than performing destructive rewrites. It features automated tiered approvals, CMS publishing webhooks, and guideline friction analytics.
+
+
+[QUESTION 3]
+What problem does your project solve, and for whom? *
+
+ANSWER:
+It solves slow pre-publication review turnaround cycles (often taking 4–5 days) and creator friction caused by disconnected governance tools. It is built for:
+1. Content Creators & Copywriters: Provides instant, non-intrusive feedback inside Google Docs, Figma, and Webflow with 1-click diff approvals.
+2. Marketing Operations & Editorial Managers: Automates review routing via Slack/Teams and blocks unvetted drafts from reaching the CMS.
+3. Brand Leadership: Surfaces ambiguity telemetry heatmaps identifying which brand rules cause the most confusion or creator overrides.
+
+
+[QUESTION 4]
+How does it work? Explain your technical approach. *
+
+ANSWER:
+The system operates as an in-context sidecar directly connected to our microservices gateway:
+1. In-Flight Capture: Browser extensions and native workspace add-ons stream document ASTs over secure WebSockets to the FastAPI gateway.
+2. Real-Time Evaluation: Dispatches text and assets across parallel verification workers (lexical linters, factual checkers, and CV engines).
+3. Non-Destructive In-Line Diffing: A TipTap-based sidecar renders green insertions and red strikethrough deletions alongside rule citations and confidence scores.
+4. Automated Risk Triage: Routes drafts into Green (instant publish), Amber (peer review), or Red (legal escalation) queues.
+5. Pre-Publish Webhook Gates: Intercepts publish actions in CMS platforms (WordPress/Webflow), requiring an approved compliance token before assets go live.
+
+
+[QUESTION 5]
+Technology and tools you are using *
+
+ANSWER:
+Next.js 15, TypeScript, React, TipTap, FastAPI, WebSockets, Tailwind CSS, HDBSCAN, Google Workspace API, Figma Plugin API.
+
+
+[QUESTION 6]
+What is built and working right now, and what is still planned? *
+
+ANSWER:
+Built & Working Right Now:
+- Next.js 15 web application shell with Brand Vault configuration and rules management UI.
+- TipTap in-line diff review prototype with color-coded accept/reject visual controls.
+- FastAPI microservice gateway with asynchronous WebSocket event handlers.
+- Integration test harness simulating Google Docs copy ingestion and live audit responses.
+
+Still Planned (Stepwise Roadmap):
+- Finalizing native manifest packaging for Google Docs Add-on and Figma plugin sidebars (Step 4).
+- Building pre-publish blocking webhooks for WordPress REST API and Webflow (Step 5).
+- Implementing interactive Slack and Microsoft Teams single-click approval notification bots (Step 5).
+- HDBSCAN unsupervised clustering on creator rule overrides for guideline ambiguity heatmaps (Step 5).
+
+
+[QUESTION 7]
+What did YOU personally build or contribute? *
+
+ANSWER:
+I built the full-stack product architecture, client integrations, and user experience. I developed the Next.js 15 portal and the TipTap in-line diff review component that allows creators to accept or reject intent-preserving edits with one click. I engineered the FastAPI asynchronous WebSocket hub connecting authoring clients to the verification engines. I also mapped the regulatory compliance rules (FTC § 5 and SEC 206(4)-1) to platform UI guardrails and designed the pre-publish CMS webhook architecture and ambiguity telemetry dashboard.
