@@ -10,7 +10,7 @@ from backend.app.core.brand_vault import BrandVault
 
 def test_fact_decomposition():
     decomposer = AtomicFactDecomposer()
-    text = "Inkloom is the only platform delivering 99.999% uptime with FedRAMP High certification for $49/month."
+    text = "AEGIS is the only platform delivering 99.999% uptime with FedRAMP High certification for $49/month."
     propositions = decomposer.decompose(text)
     assert len(propositions) >= 4
 
@@ -46,12 +46,12 @@ def test_ragas_and_vale_evaluations():
     ragas = RagasClaimEvaluator(kg, retriever)
     decomposer = AtomicFactDecomposer()
 
-    text = "Inkloom Verity is cheap and delivers 99.999% uptime with FedRAMP High certification."
+    text = "AEGIS-Brand is cheap and delivers 99.999% uptime with FedRAMP High certification."
     
     # Vale linter should catch 'cheap' and missing ™
     vale_findings = linter.lint(text)
     assert any("cheap" in f.flagged_text.lower() for f in vale_findings)
-    assert any("Inkloom Verity" in f.flagged_text for f in vale_findings)
+    assert any("AEGIS-Brand" in f.flagged_text for f in vale_findings)
 
     # Ragas should catch 99.999% uptime and FedRAMP High
     props = decomposer.decompose(text)

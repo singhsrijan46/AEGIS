@@ -88,7 +88,7 @@ class RagasClaimEvaluator:
                     title="Hallucinated Security Certification (FedRAMP High)",
                     explanation=(
                         "Claim asserts 'FedRAMP High' certification. Enterprise compliance records confirm "
-                        "Inkloom is currently 'FedRAMP Moderate Ready' undergoing evaluation, NOT FedRAMP High. "
+                        "AEGIS is currently 'FedRAMP Moderate Ready' undergoing evaluation, NOT FedRAMP High. "
                         "Falsifying federal security clearances carries direct criminal and civil liability."
                     ),
                     cited_source="Federal Agency Security Assessment Register, Section 3, Page 14",

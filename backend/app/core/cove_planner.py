@@ -18,13 +18,13 @@ class DecoupledCoVePlanner:
 
         if claim_type == "SECURITY":
             return {
-                "verification_question": "What active security and regulatory certifications does Inkloom hold in official records?",
+                "verification_question": "What active security and regulatory certifications does AEGIS hold in official records?",
                 "search_key": "Security Certification",
                 "expected_domain": "Compliance & Security"
             }
         elif claim_type == "SLA":
             return {
-                "verification_question": "What is Inkloom's active contractual uptime SLA percentage in standard enterprise contracts?",
+                "verification_question": "What is AEGIS's active contractual uptime SLA percentage in standard enterprise contracts?",
                 "search_key": "Uptime SLA Guarantee",
                 "expected_domain": "SLA & Infrastructure"
             }
@@ -36,7 +36,7 @@ class DecoupledCoVePlanner:
             }
         elif claim_type == "SUPERLATIVE":
             return {
-                "verification_question": "Does Inkloom have independent third-party audit documentation substantiating absolute market exclusivity or #1 ranking?",
+                "verification_question": "Does AEGIS have independent third-party audit documentation substantiating absolute market exclusivity or #1 ranking?",
                 "search_key": "Superlative Substantiation",
                 "expected_domain": "Legal & Regulatory"
             }

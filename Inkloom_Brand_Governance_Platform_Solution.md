@@ -1,7 +1,15 @@
-# Inkloom Verity™: Intelligent Enterprise Brand-Governance & Pre-Publication Verification Platform
+# AEGIS-Brand™: Automated Enterprise Governance & Integrity Suite for Multimodal Content Verification
+## AEGIS (Palantir / CrowdStrike Defense & Governance Style)
+
+### Acronym Breakdown:
+- **A**utomated
+- **E**nterprise
+- **G**overnance &
+- **I**ntegrity
+- **S**uite
 
 > **Comprehensive Solution Architecture, Academic Research Comparative Analysis, and Product Implementation Plan**  
-> *Prepared for: Inkloom AI Problem Statement*  
+> *Prepared for: Enterprise Brand Governance & Verification (CodeX 48)*  
 > *Date: October 2026*
 
 ---
@@ -25,7 +33,7 @@
    - 4.3 End-to-End Lifecycle & Workflow Stages
    - 4.4 Mathematical Formulations Across the 6 Verification Subsystems
    - 4.5 Algorithmic Pseudocode & End-to-End Execution Pipeline
-   - 4.6 Comparative Benchmark Analysis: Isolated Paper Baselines vs. Inkloom Verity
+   - 4.6 Comparative Benchmark Analysis: Isolated Paper Baselines vs. AEGIS-Brand
 6. [Planned Features, Technology Stack, Integrations & Data Sources](#5-planned-features-technology-stack-integrations--data-sources)
    - 5.1 Comprehensive Functional Feature Matrix
    - 5.2 Enterprise Technology Stack Architecture
@@ -46,15 +54,15 @@
 
 As growing organizations scale, content production is decentralized across hundreds of employees, regional business units, freelance contractors, external agencies, and autonomous Generative AI tools (ChatGPT, Claude, Midjourney, Canva AI). This explosion in content velocity has outpaced traditional brand governance mechanisms. Static brand books (typically 80+ page PDFs stored in shared drives) fail to prevent off-brand messaging, outdated SLAs, unsupported metrics, non-compliant visual treatments, and deceptive marketing claims before publication.
 
-**Inkloom Verity™** is an enterprise-grade, pre-publication brand governance and verification platform. Operating directly within native authoring environments (Google Docs, Word, Figma, Webflow, Chrome), Verity decomposes text, documents, and visual assets into verifiable atomic units, cross-referencing them in real time against approved brand guidelines, codified design systems, and an enterprise **Temporal Single Source of Truth (SSOT)**.
+**AEGIS-Brand™** is an enterprise-grade, pre-publication brand governance and verification platform. Operating directly within native authoring environments (Google Docs, Word, Figma, Webflow, Chrome), AEGIS decomposes text, documents, and visual assets into verifiable atomic units, cross-referencing them in real time against approved brand guidelines, codified design systems, and an enterprise **Temporal Single Source of Truth (SSOT)**.
 
-Rather than acting as an obstructive, binary "rejection filter," Inkloom Verity functions as an **explainable, intent-preserving editorial pair-assistant**. It surfaces the exact guideline violation, provides transparent citations with source links, and suggests one-click, non-destructive revisions that preserve the creator's voice and rhetorical intent while ensuring absolute factual, visual, and regulatory compliance.
+Rather than acting as an obstructive, binary "rejection filter," AEGIS functions as an **explainable, intent-preserving editorial pair-assistant**. It surfaces the exact guideline violation, provides transparent citations with source links, and suggests one-click, non-destructive revisions that preserve the creator's voice and rhetorical intent while ensuring absolute factual, visual, and regulatory compliance.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              INKLOOM VERITY™ HIGH-LEVEL FLOW                           │
+│                              AEGIS-BRAND™ HIGH-LEVEL FLOW                              │
 └────────────────────────────────────────────────────────────────────────────────────────┘
-  [ Content Creators ]         [ Authoring Surfaces ]              [ Inkloom Verity Core Engine ]
+  [ Content Creators ]         [ Authoring Surfaces ]              [ AEGIS-Brand Core Engine ]
   • Copywriters               • Google Docs / Word               ┌─────────────────────────────────┐
   • Growth Marketers    ───►  • Figma / Canva / Adobe     ───►   │ 1. Atomic Claim Extractor       │
   • External Agencies         • CMS (WordPress/HubSpot)          │ 2. Hybrid KG-RAG Fact Checker   │
@@ -150,7 +158,7 @@ This rapid decentralization has created an unsustainable tension:
 
 ## 3. Academic Research Review, Comparative Analysis & Synthesis
 
-To establish a technologically superior brand governance system, Inkloom Verity synthesizes and resolves key limitations from foundational computer science literature across **Automated Fact Checking (AFC)**, **Constitutional Rule-Following**, and **Multimodal Document Understanding**.
+To establish a technologically superior brand governance system, AEGIS-Brand™ synthesizes and resolves key limitations from foundational computer science literature across **Automated Fact Checking (AFC)**, **Constitutional Rule-Following**, and **Multimodal Document Understanding**.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -167,7 +175,7 @@ To establish a technologically superior brand governance system, Inkloom Verity 
 │ 3. MULTIMODAL DOCUMENT ANALYSIS                                                        │
 │    • LayoutLMv3 (Huang et al., 2022): 2D spatial text-image-layout multimodal modeling.│
 │                                                                                        │
-│ 4. INKLOOM VERITY™ INTEGRATION (OUR SOLUTION)                                          │
+│ 4. AEGIS-BRAND™ INTEGRATION (OUR SOLUTION)                                             │
 │    • Enterprise-Atomic Fact Verification (E-AFV) on Private Temporal Knowledge Graphs.  │
 │    • Minimal Perturbation Edit Distance (MPED) Intent-Preserving Revision.             │
 │    • Air-Gapped Zero-Leakage Knowledge Retrieval (AP-RAG).                             │
@@ -180,33 +188,33 @@ To establish a technologically superior brand governance system, Inkloom Verity 
 #### 1. FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation (Min et al., EMNLP 2023)
 *   **Mechanism:** Breaks down long-form generated text into a sequence of atomic, non-divisible factual statements using semantic dependency parsing and LLM zero-shot extraction. Each atomic fact is checked independently against Wikipedia using an automated entailment model.
 *   **Limitation in Brand Governance:** FActScore was designed for static, public knowledge (encyclopedic biographies). It cannot evaluate private enterprise truths (internal roadmaps, confidential SLAs, unreleased pricing tiers), cannot handle temporal validity (e.g., claims true in Q1 2025 but false in Q4 2026), and lacks nuance for commercial superlative detection.
-*   **Inkloom Verity Advance:** **Enterprise-Atomic Factual Verification (E-AFV)**. We extend atomic decomposition by mapping each atomic proposition to a private **Enterprise Knowledge Graph (EKG)**. Each entity has temporal validity attributes, geographical scopes, and confidence boundaries, rejecting statements that lack enterprise grounding.
+*   **AEGIS-Brand Advance:** **Enterprise-Atomic Factual Verification (E-AFV)**. We extend atomic decomposition by mapping each atomic proposition to a private **Enterprise Knowledge Graph (EKG)**. Each entity has temporal validity attributes, geographical scopes, and confidence boundaries, rejecting statements that lack enterprise grounding.
 
 #### 2. Chain-of-Verification (CoVe) Reduces Hallucination in Large Language Models (Dhuliawala et al., ACL 2024 / Meta AI)
 *   **Mechanism:** Executes a four-stage loop: (1) Draft initial response, (2) Plan verification questions to inspect potential factual assertions, (3) Answer questions independently to avoid hallucination bias, and (4) Generate final verified output.
 *   **Limitation in Brand Governance:** CoVe tends to rewrite text wholesale, destroying the original author's rhythm, rhetorical hooks, and creative tone. Furthermore, verifying questions within the closed parametric memory of an LLM still produces closed-loop confirmation bias when private facts are involved.
-*   **Inkloom Verity Advance:** **Minimal Perturbation Edit Distance (MPED) Intent-Preserving Revision**. Rather than regenerating entire passages, Verity isolates the specific violating text span $[t_{start}, t_{end}]$ and prompts a constrained local rewording engine that preserves surrounding syntactic cadence, vocabulary register, and creator intent.
+*   **AEGIS-Brand Advance:** **Minimal Perturbation Edit Distance (MPED) Intent-Preserving Revision**. Rather than regenerating entire passages, AEGIS isolates the specific violating text span $[t_{start}, t_{end}]$ and prompts a constrained local rewording engine that preserves surrounding syntactic cadence, vocabulary register, and creator intent.
 
 #### 3. Long-form Factuality in Large Language Models (SAFE) (Wei et al., Google DeepMind, 2024)
 *   **Mechanism:** Deploys an autonomous LLM agent (Search-Augmented Factuality Evaluator) that decomposes text into individual claims, generates dynamic search queries, retrieves open-web snippets from Google Search, and reasons through evidence to predict a support verdict.
 *   **Limitation in Brand Governance:** Querying public search engines with pre-publication enterprise copy leaks proprietary product launches, violating non-disclosure agreements and SEC insider trading restrictions. Furthermore, web search frequently retrieves outdated third-party blog posts rather than current, legally-approved documentation.
-*   **Inkloom Verity Advance:** **Air-Gapped Private Knowledge Retrieval (AP-RAG)**. Verity enforces an encrypted, zero-retention internal retrieval loop against authorized corporate data silos (Confluence, Notion, Jira, Git repositories, and master pricing spreadsheets) via an access-controlled vector and graph fabric.
+*   **AEGIS-Brand Advance:** **Air-Gapped Private Knowledge Retrieval (AP-RAG)**. AEGIS enforces an encrypted, zero-retention internal retrieval loop against authorized corporate data silos (Confluence, Notion, Jira, Git repositories, and master pricing spreadsheets) via an access-controlled vector and graph fabric.
 
 #### 4. Constitutional AI: Harmlessness from AI Feedback (Bai et al., Anthropic, 2022)
 *   **Mechanism:** Uses a codified list of natural-language principles ("constitution") to critique and steer model outputs through supervised learning and reinforcement learning.
 *   **Limitation in Brand Governance:** Feeding an entire 100-page enterprise style guide into a single LLM prompt causes severe attention dilution, rule collisions (e.g., "be authoritative" vs. "be humble"), and high false-positive rates due to "conservative policy bias."
-*   **Inkloom Verity Advance:** **Hierarchical Multi-Agent Rule Engine (HMARE)**. Brand guidelines are compiled into a Directed Acyclic Graph (DAG) of dedicated micro-agents: (1) Deterministic Lexical Linters, (2) Persona & Tone Vector Evaluators, (3) Claim Verification Agents, and (4) Legal/Regulatory Scanners.
+*   **AEGIS-Brand Advance:** **Hierarchical Multi-Agent Rule Engine (HMARE)**. Brand guidelines are compiled into a Directed Acyclic Graph (DAG) of dedicated micro-agents: (1) Deterministic Lexical Linters, (2) Persona & Tone Vector Evaluators, (3) Claim Verification Agents, and (4) Legal/Regulatory Scanners.
 
 #### 5. LayoutLMv3: Pre-training for Document AI with Multimodal Patch and Text Masking (Huang et al., ACM MM 2022)
 *   **Mechanism:** Jointly models textual tokens, 2D spatial coordinates (bounding boxes), and visual image patches for document understanding and structural information extraction.
 *   **Limitation in Brand Governance:** While excellent at document structure recognition, LayoutLMv3 cannot verify colorimetric color-space distances ($\Delta E$), cannot check pixel-level logo exclusion buffers, and cannot calculate mathematical WCAG 2.1 contrast formulas on complex background gradients.
-*   **Inkloom Verity Advance:** **Hybrid Multimodal Inspector (HMI)**. Combines deterministic computer vision algorithms (OpenCV for exact HEX extraction, CIELAB $\Delta E_{00}$ color distance, spatial buffer geometry) with Vision-Language Models (VLM) for qualitative brand imagery alignment (evaluating photo mood, stylistic authenticity, and visual clutter).
+*   **AEGIS-Brand Advance:** **Hybrid Multimodal Inspector (HMI)**. Combines deterministic computer vision algorithms (OpenCV for exact HEX extraction, CIELAB $\Delta E_{00}$ color distance, spatial buffer geometry) with Vision-Language Models (VLM) for qualitative brand imagery alignment (evaluating photo mood, stylistic authenticity, and visual clutter).
 
 ---
 
 ### 3.2 Comprehensive 20-Paper Deconstruction & Strategic Synthesis Matrix
 
-Below is the exhaustive deconstruction of all 20 foundational research papers, detailing each paper's specific mechanism, unique strength, enterprise vulnerability, and the capability extracted for Inkloom Verity:
+Below is the exhaustive deconstruction of all 20 foundational research papers, detailing each paper's specific mechanism, unique strength, enterprise vulnerability, and the capability extracted for AEGIS-Brand:
 
 | # | Paper Title & Citation | Core Mechanism & Methodology | Unique Pro (What We Extract) | Enterprise Vulnerability (What We Fix) |
 |---|---|---|---|---|
@@ -266,7 +274,7 @@ esearch_papers/](file:///d:/New%20folder/research_papers/):
 ## 4. Proposed Solution, Value Proposition & End-to-End Workflow
 
 ### 4.1 Solution Vision & Value Proposition
-**Inkloom Verity™** is an intelligent, real-time brand governance infrastructure that turns passive guidelines into active, intelligent guardrails.
+**AEGIS-Brand™** is an intelligent, real-time brand governance infrastructure that turns passive guidelines into active, intelligent guardrails.
 
 *   **Proactive Brand Protection:** Catches unverified claims, outdated pricing, tone drift, and non-compliant graphics *before* content reaches the public.
 *   **Empathetic Pair-Editing:** Acts as a cooperative editorial partner rather than a punitive blocker, explaining the rationale behind flags and proposing drop-in revisions.
@@ -276,7 +284,7 @@ esearch_papers/](file:///d:/New%20folder/research_papers/):
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        INKLOOM VERITY™ FULL SYSTEM ARCHITECTURE                        │
+│                        AEGIS-BRAND™ FULL SYSTEM ARCHITECTURE                           │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ 1. INGESTION & COMPILATION SUBSYSTEM                                                   │
 │    [Brand Guidelines PDF] [Design Tokens] [Pricing Sheets] [Confluence / Jira Docs]    │
@@ -336,7 +344,7 @@ esearch_papers/](file:///d:/New%20folder/research_papers/):
 
 #### Stage 2: Content Submission & Pre-Flight Trigger
 *   A writer drafts an article in Google Docs, an ad in Figma, or a social campaign in HubSpot.
-*   The Inkloom Verity extension runs passively or triggers upon a "Pre-Flight Check" command, sending the text, document structure, and embedded images to the inspection pipeline over an encrypted, private session.
+*   The AEGIS-Brand extension runs passively or triggers upon a "Pre-Flight Check" command, sending the text, document structure, and embedded images to the inspection pipeline over an encrypted, private session.
 
 #### Stage 3: Multi-Agent Parallel Inspection
 *   **Stream A (Lexicon & Tone):** Scans for prohibited terminology, ensures proper trademark symbols (®, ™), and computes cosine similarity against the brand's multidimensional tone vector.
@@ -481,7 +489,7 @@ This subsystem reviews multi-page slide decks, PDF brochures, Figma components, 
 Rather than asking an LLM to guess whether a word is forbidden, we employ an interactive tool loop:
 1.  **Deterministic AST Linter (Vale Engine):** Executes compiled regex patterns in $< 10\text{ms}$ across the raw document AST, instantly catching:
     *   Banned words (e.g., *"cheap"* $\to$ *"cost-effective"*).
-    *   Missing trademark symbols on first mention (e.g., *"Inkloom Verity™"*).
+    *   Missing trademark symbols on first mention (e.g., *"AEGIS-Brand™"*).
     *   Country-specific spelling conventions (e.g., US *"optimize"* vs. UK *"optimise"*).
 2.  **Semantic Cross-Examination:** For flagged words with ambiguous context (e.g., *"revolutionary"* used sarcastically vs. promotional), the LLM executes a tool query against the Brand Constitution to confirm whether the specific rhetorical context violates policy.
 
@@ -533,7 +541,7 @@ Below is the complete algorithmic workflow of the unified engine:
 
 ```python
 """
-Synthia-Gov / Inkloom Verity Engine: 20-Paper Composite Execution Pipeline
+AEGIS-Brand™ Governance Engine: 20-Paper Composite Execution Pipeline
 """
 
 from typing import List, Dict, Any, Tuple
@@ -656,11 +664,11 @@ class UnifiedBrandGovernanceEngine:
 
 ---
 
-### 4.6 Comparative Benchmark Analysis: Isolated Paper Baselines vs. Inkloom Verity
+### 4.6 Comparative Benchmark Analysis: Isolated Paper Baselines vs. AEGIS-Brand
 
-To prove the superiority of the composite solution, the table below compares each isolated academic paper against the **Synthia-Gov / Inkloom Verity Composite Architecture** across 7 enterprise benchmarks:
+To prove the superiority of the composite solution, the table below compares each isolated academic paper against the **AEGIS-Brand™ Composite Architecture** across 7 enterprise benchmarks:
 
-| Capability Metric | Baseline Academic Systems (Individual Papers) | Inkloom Verity™ 20-Paper Composite System | Architectural Justification |
+| Capability Metric | Baseline Academic Systems (Individual Papers) | AEGIS-Brand™ 20-Paper Composite System | Architectural Justification |
 | :--- | :--- | :--- | :--- |
 | **Confidentiality & Privacy** | **FAIL** (SAFE [3] queries public web; leaking pre-release enterprise documents). | **100% AIR-GAPPED ZERO-LEAKAGE** | Employs SAFE's multi-step reasoning, but strictly binds retrieval to an encrypted, internal hybrid vector/knowledge graph. |
 | **Author Voice Preservation** | **FAIL** (CoVe [2] & Self-Refine [10] rewrite full sentences, flattening tone and rhythm). | **INTENT-PRESERVING SPAN EDITS** | Integrates TIGERScore [12] token masking with Directional Stimulus [19] and Levenshtein constraints. Surrounding voice is preserved. |
@@ -700,7 +708,7 @@ To prove the superiority of the composite solution, the table below compares eac
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                        INKLOOM VERITY TECH STACK                       │
+│                        AEGIS-BRAND TECH STACK                          │
 ├────────────────────────────────────────────────────────────────────────┤
 │ PRESENTATION LAYER                                                     │
 │ • Web Application: Next.js 15 (App Router), React 19, TypeScript       │
@@ -740,7 +748,7 @@ To prove the superiority of the composite solution, the table below compares eac
 *   **Browser Universal Extension:** Chrome, Edge, and Arc extension injecting sidecar audits into HubSpot, WordPress, LinkedIn, Twitter/X, and Notion.
 
 #### CMS & Publishing Gateways
-*   **Pre-Publish Webhook Filters:** Native plugins for WordPress, Contentful, Webflow, and Sanity. Content cannot transition to "Published" status without a valid, signed Inkloom Verity green-tier cryptographic token.
+*   **Pre-Publish Webhook Filters:** Native plugins for WordPress, Contentful, Webflow, and Sanity. Content cannot transition to "Published" status without a valid, signed AEGIS-Brand green-tier cryptographic token.
 
 #### Data Sources Ingested into the Enterprise Vault
 *   **Brand Manuals & Creative Briefs:** Unstructured PDFs, brand portal URLs, design system guidelines.
@@ -765,7 +773,7 @@ To prove the superiority of the composite solution, the table below compares eac
 
 ### 6.1 Confidentiality, Data Privacy & Air-Gapped Zero-Leakage Architecture
 *   **Enterprise Zero Data Retention (ZDR):** All connections to frontier foundation models operate under strict contractual Zero Data Retention agreements. Customer drafts and brand assets are never cached by third-party model providers, nor are they ever used for foundational model training.
-*   **Private VPC & On-Premises Air-Gapping:** For defense, financial, or healthcare enterprises with strict security mandates, Inkloom Verity deploys completely within the customer's Virtual Private Cloud (AWS Bedrock, Azure Private OpenAI, or self-hosted open-weights models like Llama-3-70B on internal NVIDIA H100/A100 clusters).
+*   **Private VPC & On-Premises Air-Gapping:** For defense, financial, or healthcare enterprises with strict security mandates, AEGIS-Brand deploys completely within the customer's Virtual Private Cloud (AWS Bedrock, Azure Private OpenAI, or self-hosted open-weights models like Llama-3-70B on internal NVIDIA H100/A100 clusters).
 *   **Automated In-Flight PII/IP Sanitization:** A local Microsoft Presidio pipeline scrubs personally identifiable information (PII), customer names, internal codenames, and unreleased financial metrics before sending text chunks to reasoning modules.
 
 ### 6.2 Explainability, Grounded Attribution & Epistemic Confidence
@@ -776,7 +784,7 @@ To prove the superiority of the composite solution, the table below compares eac
 *   **Explicit Confidence Thresholds:** Claim verification predictions include a numerical confidence score ($0.0 - 1.0$). If confidence drops below $0.85$, the engine refuses to guess, instead stating: *"Potential factual assertion detected: Insufficient internal data to verify. Please consult a designated Product SME."*
 
 ### 6.3 Human Agency: The Anti-Overruling Mandate
-*   **No Autonomous Overwriting:** Inkloom Verity never alters or publishes copy without explicit human consent. Suggestions are displayed as previewable diffs that require deliberate user acceptance.
+*   **No Autonomous Overwriting:** AEGIS-Brand never alters or publishes copy without explicit human consent. Suggestions are displayed as previewable diffs that require deliberate user acceptance.
 *   **Creator Overrides & Creative Discretion:** Creators can override any non-legal warning by selecting *"Intentional Stylistic Choice"* and supplying a brief note. This prevents algorithmic homogenization and fosters creative expression.
 *   **Mandatory AI Disclosure:** In compliance with global transparency standards (such as EU AI Act Article 50), all assets reviewed or assisted by AI include audit metadata indicating automated review status.
 
@@ -790,7 +798,7 @@ To prove the superiority of the composite solution, the table below compares eac
 
 ### 7.1 Stepwise Implementation Roadmap (Steps 1 to 5)
 
-Rather than arbitrary calendar intervals (weeks or months), the development and deployment of **VeriBrand AI™** follows a rigorous **5-Step Stepwise Architecture Pipeline**. Each step establishes hard architectural prerequisites and validation gates that must be satisfied before unlocking subsequent capabilities.
+Rather than arbitrary calendar intervals (weeks or months), the development and deployment of **AEGIS-Brand™** follows a rigorous **5-Step Stepwise Architecture Pipeline**. Each step establishes hard architectural prerequisites and validation gates that must be satisfied before unlocking subsequent capabilities.
 
 ```
 STEPWISE PROGRESSION PIPELINE
@@ -903,7 +911,7 @@ STEPWISE PROGRESSION PIPELINE
 To ensure rapid execution, zero architectural overlap, and maximum velocity, all platform responsibilities are equitably divided across a **3-Member Core Technical Team**:
 
 ```
-                                  VERIBRAND AI™ 3-MEMBER TECHNICAL CORE
+                                  AEGIS-BRAND™ 3-MEMBER TECHNICAL CORE
                                                     │
         ┌───────────────────────────────────────────┼───────────────────────────────────────────┐
         ▼                                           ▼                                           ▼
@@ -951,4 +959,4 @@ To ensure rapid execution, zero architectural overlap, and maximum velocity, all
 
 ## 8. Conclusion
 
-Inkloom Verity™ transforms brand governance from an ad-hoc, manual bottleneck into an intelligent, real-time enterprise capability. By pairing **rigorous atomic fact checking (E-AFV)** and **deterministic multimodal computer vision** with **intent-preserving critique** and **transparent human oversight**, the platform ensures that every piece of published content is accurate, on-brand, accessible, and compliant.
+AEGIS-Brand™ transforms brand governance from an ad-hoc, manual bottleneck into an intelligent, real-time enterprise capability. By pairing **rigorous atomic fact checking (E-AFV)** and **deterministic multimodal computer vision** with **intent-preserving critique** and **transparent human oversight**, the platform ensures that every piece of published content is accurate, on-brand, accessible, and compliant.

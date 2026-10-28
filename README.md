@@ -1,7 +1,23 @@
-# Inkloom Verity™ / VeriBrand AI™
+# AEGIS (Palantir / CrowdStrike Defense & Governance Style)
+## Full Product Name: AEGIS-Brand™ — Automated Enterprise Governance & Integrity Suite for Multimodal Content Verification
 
-> **Intelligent Enterprise Brand-Governance & Pre-Publication Verification Platform**  
+### Acronym Breakdown:
+- **A**utomated
+- **E**nterprise
+- **G**overnance &
+- **I**ntegrity
+- **S**uite
+
+> **Automated Enterprise Governance & Integrity Suite for Multimodal Content Verification**  
 > *Resolving the Content Velocity vs. Brand Integrity Crisis Across Distributed Teams and Generative AI Agents.*
+
+[![GitHub Pages Deployment](https://img.shields.io/badge/Deployed%20Live-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://singhsrijan46.github.io/AEGIS/)
+[![Vercel Deployment](https://img.shields.io/badge/CDN%20Mirror-Vercel-black?style=for-the-badge&logo=vercel)](https://aegis-singhsrijan46.vercel.app)
+[![Repository](https://img.shields.io/badge/GitHub-singhsrijan46%2FAEGIS-181717?style=for-the-badge&logo=github)](https://github.com/singhsrijan46/AEGIS)
+
+- 🌐 **Live Deployed Studio:** [https://singhsrijan46.github.io/AEGIS/](https://singhsrijan46.github.io/AEGIS/)
+- 💻 **Source Code Repository:** [https://github.com/singhsrijan46/AEGIS](https://github.com/singhsrijan46/AEGIS)
+- 📝 **Round 2 Submission Form Answers:** [ROUND_2_SUBMISSION_ANSWERS.md](file:///d:/AEGIS/ROUND_2_SUBMISSION_ANSWERS.md)
 
 ---
 
@@ -9,7 +25,7 @@
 
 As enterprise organizations scale, content production is decentralized across hundreds of employees, regional business units, freelance agencies, and autonomous Generative AI tools (ChatGPT, Claude, Midjourney). Static brand books (80+ page PDFs stored in shared drives) fail to prevent off-brand messaging, outdated SLAs, unsupported metrics, non-compliant visual treatments, and deceptive marketing claims before publication.
 
-**Inkloom Verity™** is an enterprise-grade pre-publication brand governance and verification platform that operates directly within native authoring environments and CMS publishing gateways. Rather than acting as a punitive binary blocker, Verity functions as an **explainable, intent-preserving editorial pair-assistant**. It surfaces exact guideline violations, provides transparent citations with source links, and suggests one-click, non-destructive revisions that preserve the creator's voice and rhetorical intent while ensuring absolute factual, visual, and regulatory compliance.
+**AEGIS-Brand™** is an enterprise-grade pre-publication brand governance and verification platform that operates directly within native authoring environments and CMS publishing gateways. Rather than acting as a punitive binary blocker, AEGIS functions as an **explainable, intent-preserving editorial pair-assistant**. It surfaces exact guideline violations, provides transparent citations with source links, and suggests one-click, non-destructive revisions that preserve the creator's voice and rhetorical intent while ensuring absolute factual, visual, and regulatory compliance.
 
 ---
 
@@ -58,7 +74,7 @@ STEPWISE ARCHITECTURE PIPELINE
 
 5. **Subsystem 5: Interactive Deterministic Prose Linter**
    - Microsecond Vale AST linters for prohibited terms (e.g. *cheap* $\to$ *cost-effective*, *ninja* $\to$ *domain expert*).
-   - Mandatory trademark placements on first mention (e.g., *Inkloom Verity™*).
+   - Mandatory trademark placements on first mention (e.g., *AEGIS-Brand™*).
 
 6. **Subsystem 6: Intent-Preserving Revision & Human-in-the-Loop UI**
    - Minimal Perturbation Edit Distance (MPED):
@@ -141,8 +157,17 @@ d:\AEGIS
 │   │   └── data/                        # Presets & academic corpus data
 ├── research_papers/                     # 20 full-text academic research PDFs
 ├── run_server.py                        # Backend launcher script
+├── ROUND_2_SUBMISSION_ANSWERS.md        # Official Round 2 Hackathon Form Answers
+├── TEAM_MEMBER_FORM_ANSWERS.txt         # 3-Member individual contribution submissions
 └── README.md                            # Comprehensive platform documentation
 ```
+
+---
+
+## 4.1. Hackathon Submission Documents & Stage Roadmap
+- **Round 2 Form Answers:** [ROUND_2_SUBMISSION_ANSWERS.md](file:///d:/AEGIS/ROUND_2_SUBMISSION_ANSWERS.md) (Exact answers for the 7 form fields across the 3 submission cards: features completed, tech stack & hard engineering hurdles, proposal changes, known boundaries, and the 3 major improvements for Round 3).
+- **Individual Team Member Form Submissions:** [TEAM_MEMBER_FORM_ANSWERS.txt](file:///d:/AEGIS/TEAM_MEMBER_FORM_ANSWERS.txt) (Pre-formatted answers for all 3 roles: AI/NLP Lead, Computer Vision/Security Lead, and Full-Stack Integrations Lead).
+- **Presentation Deck Script & Slides:** [PRESENTATION_SLIDES.md](file:///d:/AEGIS/PRESENTATION_SLIDES.md) and interactive [slides_preview.html](file:///d:/AEGIS/slides_preview.html).
 
 ---
 

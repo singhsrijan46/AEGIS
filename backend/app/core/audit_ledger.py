@@ -20,7 +20,7 @@ class CryptographicAuditLedger:
         ts = time.time()
         raw_payload = f"{document_id}:{ts}:{score}:{tier}:{text}"
         sha256_hash = hashlib.sha256(raw_payload.encode('utf-8')).hexdigest()
-        token = f"VERITY-CERT-{sha256_hash[:16].upper()}"
+        token = f"AEGIS-CERT-{sha256_hash[:16].upper()}"
 
         cert = CryptographicCertificate(
             token=token,

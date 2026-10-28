@@ -1,5 +1,5 @@
 """
-Pydantic schemas and data models for Inkloom Verity / VeriBrand AI.
+Pydantic schemas and data models for AEGIS-Brand™ — Automated Enterprise Governance & Integrity Suite.
 """
 
 from typing import List, Dict, Any, Optional, Tuple
@@ -148,4 +148,4 @@ class CryptographicCertificate(BaseModel):
     compliance_score: float
     tier: str
     status: str
-    issuer: str = "Inkloom Verity Governance Engine v2.4"
+    issuer: str = "AEGIS-Brand™ Automated Enterprise Governance & Integrity Suite v4.0"

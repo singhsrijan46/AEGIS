@@ -47,7 +47,7 @@ class AtomicFactDecomposer:
                 cert_name = sm.group(0)
                 propositions.append(AtomicProposition(
                     raw_sentence=sentence,
-                    proposition=f"Inkloom holds active certification: {cert_name}",
+                    proposition=f"AEGIS holds active certification: {cert_name}",
                     span=(s_start + sm.start(), s_start + sm.end()),
                     claim_type="SECURITY",
                     extracted_entities=[cert_name]
@@ -59,7 +59,7 @@ class AtomicFactDecomposer:
                 matched_val = sm.group(0)
                 propositions.append(AtomicProposition(
                     raw_sentence=sentence,
-                    proposition=f"Inkloom guarantees SLA uptime: {matched_val}",
+                    proposition=f"AEGIS guarantees SLA uptime: {matched_val}",
                     span=(s_start + sm.start(), s_start + sm.end()),
                     claim_type="SLA",
                     extracted_entities=[matched_val]
@@ -70,7 +70,7 @@ class AtomicFactDecomposer:
             for pm in price_matches:
                 propositions.append(AtomicProposition(
                     raw_sentence=sentence,
-                    proposition=f"Inkloom active enterprise price is: {pm.group(0)}",
+                    proposition=f"AEGIS active enterprise price is: {pm.group(0)}",
                     span=(s_start + pm.start(), s_start + pm.end()),
                     claim_type="PRICING",
                     extracted_entities=[pm.group(0)]
@@ -81,7 +81,7 @@ class AtomicFactDecomposer:
             for sup in sup_matches:
                 propositions.append(AtomicProposition(
                     raw_sentence=sentence,
-                    proposition=f"Inkloom asserts unverified superlative: {sup.group(0)}",
+                    proposition=f"AEGIS asserts unverified superlative: {sup.group(0)}",
                     span=(s_start + sup.start(), s_start + sup.end()),
                     claim_type="SUPERLATIVE",
                     extracted_entities=[sup.group(0)]

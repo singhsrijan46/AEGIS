@@ -1,9 +1,15 @@
-# VeriBrand AI™ — Official Presentation Slide Deck
+# AEGIS-Brand™ — Official Presentation Slide Deck
 ## CodeX 48 Hackathon / Problem Statement by Inkloom AI
 
 > **Event:** CodeX 48  
-> **Project Name:** VeriBrand AI™  
-> **Subtitle:** Intelligent Enterprise Brand-Governance & Pre-Publication Verification Platform with Intent-Preserving Revision  
+> **Project Name:** AEGIS (Palantir / CrowdStrike Defense & Governance Style)  
+> **Full Product Name:** AEGIS-Brand™ — Automated Enterprise Governance & Integrity Suite for Multimodal Content Verification  
+> **Acronym Breakdown:**  
+> • **A**utomated  
+> • **E**nterprise  
+> • **G**overnance &  
+> • **I**ntegrity  
+> • **S**uite  
 > **Theme:** Enterprise AI / Responsible AI, Trust & Digital Governance  
 > **Track:** Software / Multimodal Enterprise SaaS  
 > **Team Structure:** 3 Core Members (Equitably Distributed Engineering & Product Ownership)  
@@ -22,9 +28,9 @@
 │                                                                     ┌──────────────┐   │
 │   • Problem Statement — Inkloom AI Brand-Governance Track           │   [ DIGITAL  │   │
 │                                                                     │     TECH     │   │
-│   • Project Title — VeriBrand AI™:                                  │     ACCENT   │   │
-│     Intelligent Enterprise Brand-Governance & Pre-Publication       │     BRAIN /  │   │
-│     Verification Platform with Intent-Preserving Revision           │     SHIELD ] │   │
+│   • Project Title — AEGIS-Brand™:                                   │     ACCENT   │   │
+│     Automated Enterprise Governance & Integrity Suite for           │     BRAIN /  │   │
+│     Multimodal Content Verification                                 │     SHIELD ] │   │
 │                                                                     │              │   │
 │   • Track — Enterprise AI / Responsible AI & Digital Governance     └──────────────┘   │
 │                                                                                        │
@@ -39,7 +45,7 @@
 *   **Header:** CODEX 48 | TITLE PAGE
 *   **Event:** CodeX 48 Hackathon
 *   **Problem Statement:** Inkloom AI Brand-Governance Problem Statement
-*   **Project Title:** **VeriBrand AI™ — Intelligent Enterprise Brand-Governance & Pre-Publication Verification Platform**
+*   **Project Title:** **AEGIS-Brand™ — Automated Enterprise Governance & Integrity Suite for Multimodal Content Verification**
 *   **Track:** Enterprise AI / Responsible AI & Digital Governance
 *   **PS Category:** Software (Multimodal Enterprise Agentic SaaS)
 *   **Team Composition (3 Members):**
@@ -48,7 +54,7 @@
     - **Member 3 (Full-Stack & Product Lead):** Next.js Portal, Editor Plugins, & Governance Telemetry
 
 ### Speaker Script (30 Seconds)
-> *"Judges and mentors, welcome to our CodeX 48 presentation. As organizations scale, publishing content through multiple employees, agencies, and generative AI tools has caused an alarming brand integrity crisis: unvetted claims, outdated pricing, tone erosion, and off-brand visuals slip into public view before anyone notices. We built **VeriBrand AI™**—an intelligent, pre-publication brand-governance platform that reviews content against approved guidelines, verifies claims against a private knowledge graph, audits multimodal design assets, and provides explainable, intent-preserving corrections before content is published."*
+> *"Judges and mentors, welcome to our CodeX 48 presentation. As organizations scale, publishing content through multiple employees, agencies, and generative AI tools has caused an alarming brand integrity crisis: unvetted claims, outdated pricing, tone erosion, and off-brand visuals slip into public view before anyone notices. We built **AEGIS-Brand™** (Automated Enterprise Governance & Integrity Suite)—a defense-grade, pre-publication governance platform that reviews content against approved guidelines, verifies claims against a private temporal knowledge graph, audits multimodal design assets, and provides explainable, intent-preserving corrections before content is published."*
 
 ---
 
@@ -57,7 +63,7 @@
 ### Visual Layout Guide
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ VERIBRAND AI™                                                                          │
+│ AEGIS-BRAND™                                                                           │
 │ Air-Gapped Multi-Agent Brand-Governance & Temporal Claim-Verification Architecture    │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ [Content Inputs] ─► [Adaptive Gate] ─► [Enterprise Vault] ─► [E-AFV Claim Engine] ─►   │
@@ -103,7 +109,7 @@
 *   **04. Anti-Overruling Mandate:** AI never silently alters human copy; creator overrides are logged to feed continuous guideline ambiguity analytics.
 
 ### Speaker Script (60 Seconds)
-> *"On Slide 2, we present the architecture of **VeriBrand AI**. Instead of forcing creators to read dense 80-page brand manuals, VeriBrand runs in real time inside their native writing surfaces. Our pipeline decomposes drafts into atomic assertions, routes them through specialized micro-agents, and verifies factual claims against an internal Temporal Knowledge Graph. Crucially, as highlighted in Box 3, our unique innovation is that we don't just reject copy. Using Minimal Perturbation Editing, we generate surgical, span-level diffs that repair the violation while 100% preserving the creator's voice and intent. All of this runs completely air-gapped, ensuring zero enterprise data leaks."*
+> *"On Slide 2, we present the architecture of **AEGIS-Brand™**. Instead of forcing creators to read dense 80-page brand manuals, AEGIS-Brand™ runs in real time inside their native writing surfaces. Our pipeline decomposes drafts into atomic assertions, routes them through specialized micro-agents, and verifies factual claims against an internal Temporal Knowledge Graph. Crucially, as highlighted in Box 3, our unique innovation is that we don't just reject copy. Using Minimal Perturbation Editing, we generate surgical, span-level diffs that repair the violation while 100% preserving the creator's voice and intent. All of this runs completely air-gapped, ensuring zero enterprise data leaks."*
 
 ---
 
@@ -285,7 +291,7 @@
 *   **Frontline Creators & Agencies:** Instant real-time feedback inside Google Docs/Figma, 1-click fixes that preserve their voice, and rapid onboarding.
 
 ### Speaker Script (45 Seconds)
-> *"Slide 5 summarizes the business impact of VeriBrand AI across three critical pillars: First, legal and brand risk protection—preventing hallucinations and eliminating FTC and SEC advertising penalties. Second, multimodal visual fidelity—guaranteeing accessible, WCAG-compliant graphics with mathematical color precision. And third, operational velocity—cutting review bottlenecks from 4.5 days to under 4 hours. Creators publish faster with confidence, legal teams get 100% verified claims, and the enterprise unlocks the documented 10% to 33% revenue uplift that comes with brand consistency."*
+> *"Slide 5 summarizes the business impact of AEGIS-Brand™ across three critical pillars: First, legal and brand risk protection—preventing hallucinations and eliminating FTC and SEC advertising penalties. Second, multimodal visual fidelity—guaranteeing accessible, WCAG-compliant graphics with mathematical color precision. And third, operational velocity—cutting review bottlenecks from 4.5 days to under 4 hours. Creators publish faster with confidence, legal teams get 100% verified claims, and the enterprise unlocks the documented 10% to 33% revenue uplift that comes with brand consistency."*
 
 ---
 
@@ -295,11 +301,11 @@
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │ RESEARCH AND REFERENCES                                                                │
-│ From theoretical NLP & CV to our architecture: the research foundations of VeriBrand   │
+│ From theoretical NLP & CV to our architecture: the research foundations of AEGIS-Brand │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ RESEARCH LINEAGE:                                                                      │
 │ [Atomic Verification] ─► [Decoupled Querying] ─► [Constitutional AI] ─►                │
-│ ─► [Multimodal Document AI] ─► [VeriBrand AI™ (Our 20-Paper Composite Contribution)]  │
+│ ─► [Multimodal Document AI] ─► [AEGIS-Brand™ (Our 20-Paper Composite Contribution)]   │
 ├──────────────┬──────────────┬──────────────┬──────────────┬────────────────────────────┤
 │ 1. Claim     │ 2. Policy &  │ 3. Multimodal│ 4. Prompting │ 5. Symbiosis &             │
 │    Verify    │    Style     │    Layout    │    & Control │    Calibration             │
@@ -324,7 +330,7 @@
 2.  **Decoupled Verification:** Querying facts independently without context cross-contamination.
 3.  **Constitutional Steering:** Codifying guidelines into natural-language executable principles.
 4.  **Multimodal Document AI:** Modeling 2D spatial layouts, fonts, and pixel patches.
-5.  **VeriBrand AI™ (Our Contribution):** Continuous-depth, air-gapped, multi-agent enterprise brand governance fabric with intent-preserving revisions.
+5.  **AEGIS-Brand™ (Our Contribution):** Continuous-depth, air-gapped, multi-agent enterprise brand governance fabric with intent-preserving revisions.
 
 #### Key References (Selected):
 *   **1. Factual Claim Verification:**
@@ -354,4 +360,4 @@
 *   **Prototype Demo & Code Repository:** `[Click Here to Access]`
 
 ### Speaker Script (45 Seconds)
-> *"Finally, on Slide 6, VeriBrand AI is built on the proven findings of 20 foundational peer-reviewed papers from NeurIPS, ACL, EMNLP, ACM CHI, and Google DeepMind. By combining FActScore's atomic extraction, Meta's decoupled verification, Anthropic's Constitutional AI, and LayoutLMv3's multimodal layout modeling, we created the first air-gapped, intent-preserving brand governance platform. All 20 research papers are verified and downloaded in our repository. Thank you, and we welcome your questions!"*
+> *"Finally, on Slide 6, AEGIS-Brand™ is built on the proven findings of 20 foundational peer-reviewed papers from NeurIPS, ACL, EMNLP, ACM CHI, and Google DeepMind. By combining FActScore's atomic extraction, Meta's decoupled verification, Anthropic's Constitutional AI, and LayoutLMv3's multimodal layout modeling, we created the first air-gapped, intent-preserving brand governance platform. All 20 research papers are verified and downloaded in our repository. Thank you, and we welcome your questions!"*

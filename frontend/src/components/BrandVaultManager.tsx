@@ -13,7 +13,7 @@ export const BrandVaultManager: React.FC<BrandVaultManagerProps> = ({ rules, fac
   const [showAddModal, setShowAddModal] = useState(false);
 
   // New fact form state
-  const [newEntity, setNewEntity] = useState('Inkloom Verity');
+  const [newEntity, setNewEntity] = useState('AEGIS-Brand');
   const [newAttribute, setNewAttribute] = useState('');
   const [newValue, setNewValue] = useState('');
   const [validFrom, setValidFrom] = useState('2026-01-01');

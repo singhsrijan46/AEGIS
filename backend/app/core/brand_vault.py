@@ -91,10 +91,11 @@ class BrandVault:
 
         # Mandatory Trademarks on First Mention
         self.trademark_registry = {
-            "Inkloom Verity": "Inkloom Verity™",
-            "VeriBrand AI": "VeriBrand AI™",
-            "E-AFV": "E-AFV™",
-            "Synthia-Gov": "Synthia-Gov™"
+            "AEGIS-Brand": "AEGIS-Brand™",
+            "AEGIS": "AEGIS™",
+            "Inkloom Verity": "AEGIS-Brand™",
+            "VeriBrand AI": "AEGIS-Brand™",
+            "E-AFV": "E-AFV™"
         }
 
         # Hierarchical Directed Acyclic Graph (DAG) of Micro-Rules
@@ -106,9 +107,9 @@ class BrandVault:
                 id="RULE-LEX-001",
                 category="LEXICAL",
                 name="Banned Colloquial & Devaluing Vocabulary",
-                description="Flags words like 'cheap', 'ninja', 'rockstar' that erode enterprise brand stature.",
+                description="Flags words like 'cheap', 'ninja', 'rockstar' that erode defense-grade brand stature.",
                 severity="WARNING",
-                source_document="Inkloom Enterprise Brand Standards Manual v4.2",
+                source_document="AEGIS-Brand™ Global Governance & Defense Standard v4.0",
                 section="Section 2.4: Approved Executive Vocabulary",
                 page=18,
                 rule_type="regex",
@@ -118,9 +119,9 @@ class BrandVault:
                 id="RULE-LEX-002",
                 category="LEXICAL",
                 name="Mandatory Trademark Placement on First Mention",
-                description="Inkloom Verity and VeriBrand AI must carry the ™ symbol on their first occurrence.",
+                description="AEGIS-Brand and associated product marks must carry the ™ symbol on their first occurrence.",
                 severity="WARNING",
-                source_document="Corporate Legal IP & Trademark Register 2026",
+                source_document="AEGIS IP & Global Trademark Register 2026",
                 section="Section 1.1: Trademark Disclosures",
                 page=4,
                 rule_type="regex",
@@ -132,7 +133,7 @@ class BrandVault:
                 name="5D Persona Coordinate Compliance",
                 description="Draft tone must align with target persona (Formality >= 0.6, Authority >= 0.8).",
                 severity="SUGGESTION",
-                source_document="Inkloom Enterprise Brand Standards Manual v4.2",
+                source_document="AEGIS-Brand™ Global Governance & Defense Standard v4.0",
                 section="Section 3.1: Voice Spectrum & Archetypes",
                 page=27,
                 rule_type="vector",
@@ -180,7 +181,7 @@ class BrandVault:
                 name="CIELAB Colorimetric Tolerance (ΔE00 < 2.0)",
                 description="Asset colors must not deviate by more than 2.0 ΔE from official corporate palette.",
                 severity="WARNING",
-                source_document="Inkloom Design System & Token Specifications",
+                source_document="AEGIS Design System & Token Specifications",
                 section="Section 1.2: Brand Color Tokens & Print Tolerances",
                 page=8,
                 rule_type="wcag",
@@ -204,7 +205,7 @@ class BrandVault:
                 name="Logo Exclusion Safe-Zone Buffer (0.5H)",
                 description="No graphic elements, lines, or text may encroach within 0.5 times the logo height.",
                 severity="WARNING",
-                source_document="Inkloom Enterprise Brand Standards Manual v4.2",
+                source_document="AEGIS-Brand™ Global Governance & Defense Standard v4.0",
                 section="Section 1.5: Logo Protection Clear Space",
                 page=15,
                 rule_type="logo_box",

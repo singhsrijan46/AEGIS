@@ -1,5 +1,5 @@
 """
-FastAPI Enterprise Gateway for Inkloom Verity™ / VeriBrand AI™
+FastAPI Enterprise Gateway for AEGIS-Brand™ — Automated Enterprise Governance & Integrity Suite
 Provides full REST and WebSocket endpoints for pre-flight checking,
 brand vault management, multimodal CV analysis, CMS gate simulation, and telemetry.
 """
@@ -26,9 +26,9 @@ from .core import (
 )
 
 app = FastAPI(
-    title="Inkloom Verity™ Governance API",
-    description="Intelligent Enterprise Brand-Governance & Pre-Publication Verification Platform",
-    version="2.4.0"
+    title="AEGIS-Brand™ Governance API",
+    description="Automated Enterprise Governance & Integrity Suite for Multimodal Content Verification",
+    version="4.0.0"
 )
 
 # Enable CORS for local Vite and extension clients
@@ -50,8 +50,9 @@ telemetry_engine = AmbiguityTelemetryEngine()
 def health_check():
     return {
         "status": "healthy",
-        "engine": "Inkloom Verity Unified Governance Engine",
-        "version": "2.4.0",
+        "engine": "AEGIS-Brand™ Automated Enterprise Governance & Integrity Suite",
+        "version": "4.0.0",
+        "codename": "DEFCON-INTEGRITY",
         "active_rules_count": len(engine.vault.rules),
         "temporal_facts_count": len(engine.kg.facts),
         "zero_data_retention": True,

@@ -22,8 +22,10 @@ class ValeLinter:
 
         # Trademark patterns
         self.tm_checks = [
-            ("Inkloom Verity", r'\bInkloom Verity(?!\™|\®)\b', "Inkloom Verity™"),
-            ("VeriBrand AI", r'\bVeriBrand AI(?!\™|\®)\b', "VeriBrand AI™"),
+            ("AEGIS-Brand", r'\bAEGIS-Brand(?!\™|\®)\b', "AEGIS-Brand™"),
+            ("AEGIS", r'\bAEGIS(?!\™|\®|-Brand)\b', "AEGIS™"),
+            ("Inkloom Verity", r'\bInkloom Verity(?!\™|\®)\b', "AEGIS-Brand™"),
+            ("VeriBrand AI", r'\bVeriBrand AI(?!\™|\®)\b', "AEGIS-Brand™"),
             ("E-AFV", r'\bE-AFV(?!\™|\®)\b', "E-AFV™")
         ]
 
@@ -49,7 +51,7 @@ class ValeLinter:
                     severity=meta["severity"],
                     title=f"Prohibited Terminology: '{matched_text}'",
                     explanation=f"{meta['rationale']} Replace with approved enterprise phrasing.",
-                    cited_source="Inkloom Enterprise Brand Standards Manual v4.2, Section 2.4",
+                    cited_source="AEGIS-Brand™ Global Governance & Defense Standard v4.0, Section 2.4",
                     rule_id="RULE-LEX-001",
                     suggested_edit=replacement,
                     confidence=1.0,

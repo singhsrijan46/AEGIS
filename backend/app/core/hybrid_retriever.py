@@ -32,24 +32,24 @@ class AirGappedHybridRetriever:
         return [
             CorpusDocument(
                 doc_id="DOC-1",
-                title="Inkloom Enterprise Brand Standards Manual v4.2",
+                title="AEGIS-Brand™ Global Governance & Defense Standard v4.0",
                 section="Section 2.4: Approved Executive Vocabulary",
                 page=18,
-                text="Inkloom communicates with quiet authority. Words such as 'cheap', 'ninja', 'rockstar', and 'hack' are expressly forbidden in all collateral. Always replace 'cheap' with 'cost-effective' or 'capital-efficient'. Tone must remain authoritative, objective, and empathetic."
+                text="AEGIS communicates with defense-grade authority and governance rigor. Words such as 'cheap', 'ninja', 'rockstar', and 'hack' are expressly forbidden in all collateral. Always replace 'cheap' with 'cost-effective' or 'capital-efficient'. Tone must remain authoritative, objective, and precise."
             ),
             CorpusDocument(
                 doc_id="DOC-2",
-                title="Corporate Legal IP & Trademark Register 2026",
+                title="AEGIS IP & Global Trademark Register 2026",
                 section="Section 1.1: Trademark Disclosures",
                 page=4,
-                text="The brand name 'Inkloom Verity' and product line 'VeriBrand AI' are registered proprietary marks. Any customer-facing publication, ad copy, or press release must append the trademark symbol (™) on the very first occurrence within the document title or opening body."
+                text="The product name 'AEGIS-Brand' and governance suite 'AEGIS' are registered proprietary marks. Any customer-facing publication, ad copy, or press release must append the trademark symbol (™) on the very first occurrence within the document title or opening body."
             ),
             CorpusDocument(
                 doc_id="DOC-3",
                 title="Enterprise Master Product & SLA Register Q4 2026",
                 section="Section 4: Technical Specifications & SLA Commitments",
                 page=42,
-                text="Inkloom Verity provides an annual contractual availability SLA of 99.95% with financial remedies. Marketing must never claim '99.999%' (five nines) uptime, as no such SLA tier exists in active production contracts."
+                text="AEGIS-Brand provides an annual contractual availability SLA of 99.95% with financial remedies. Marketing must never claim '99.999%' (five nines) uptime, as no such SLA tier exists in active production contracts."
             ),
             CorpusDocument(
                 doc_id="DOC-4",
@@ -63,7 +63,7 @@ class AirGappedHybridRetriever:
                 title="Compliance Audit Report 2026 (Schellman & Co.)",
                 section="Section 1.1: SOC 2 Attestation",
                 page=3,
-                text="Inkloom holds active SOC 2 Type II and ISO 27001:2022 certifications covering cloud operations. FedRAMP Moderate Ready status is currently undergoing PMO review. Inkloom does NOT hold FedRAMP High certification, and claims of FedRAMP High constitute false regulatory representations."
+                text="AEGIS-Brand holds active SOC 2 Type II and ISO 27001:2022 certifications covering cloud operations. FedRAMP Moderate Ready status is currently undergoing PMO review. AEGIS does NOT hold FedRAMP High certification, and claims of FedRAMP High constitute false regulatory representations."
             ),
             CorpusDocument(
                 doc_id="DOC-6",

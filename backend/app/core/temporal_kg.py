@@ -19,7 +19,7 @@ class TemporalKnowledgeGraph:
             # Security Certifications
             TemporalFact(
                 id="FACT-SEC-001",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Security Certification",
                 value="SOC 2 Type II Certified",
                 valid_from="2024-01-01",
@@ -31,7 +31,7 @@ class TemporalKnowledgeGraph:
             ),
             TemporalFact(
                 id="FACT-SEC-002",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Security Certification",
                 value="ISO 27001:2022 Certified",
                 valid_from="2024-06-01",
@@ -43,7 +43,7 @@ class TemporalKnowledgeGraph:
             ),
             TemporalFact(
                 id="FACT-SEC-003",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="FedRAMP Status",
                 value="FedRAMP Moderate Ready (In Evaluation, NOT FedRAMP High Authorized)",
                 valid_from="2026-01-01",
@@ -55,7 +55,7 @@ class TemporalKnowledgeGraph:
             ),
             TemporalFact(
                 id="FACT-SEC-004",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Data Residency",
                 value="Frankfurt (Germany) and Oregon (USA) AWS Air-Gapped VPCs",
                 valid_from="2025-01-01",
@@ -69,7 +69,7 @@ class TemporalKnowledgeGraph:
             # Availability & SLA
             TemporalFact(
                 id="FACT-SLA-001",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Uptime SLA Guarantee",
                 value="99.95% Annual Uptime (Contractual SLA)",
                 valid_from="2025-01-01",
@@ -81,7 +81,7 @@ class TemporalKnowledgeGraph:
             ),
             TemporalFact(
                 id="FACT-SLA-002",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Deprecated SLA",
                 value="99.90% Uptime Guarantee",
                 valid_from="2023-01-01",
@@ -95,7 +95,7 @@ class TemporalKnowledgeGraph:
             # Pricing Tiers
             TemporalFact(
                 id="FACT-PRICE-001",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Active Enterprise Pricing",
                 value="$99 per seat per month (billed annually, min 25 seats)",
                 valid_from="2026-01-01",
@@ -107,7 +107,7 @@ class TemporalKnowledgeGraph:
             ),
             TemporalFact(
                 id="FACT-PRICE-002",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Deprecated Startup Pricing",
                 value="$49 per seat per month",
                 valid_from="2024-01-01",
@@ -121,7 +121,7 @@ class TemporalKnowledgeGraph:
             # Audited Empirical Metrics
             TemporalFact(
                 id="FACT-METRIC-001",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Average Conversion Uplift",
                 value="31% conversion uplift across audited enterprise cohort",
                 valid_from="2025-06-01",
@@ -133,7 +133,7 @@ class TemporalKnowledgeGraph:
             ),
             TemporalFact(
                 id="FACT-METRIC-002",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Enterprise Customer Base",
                 value="450+ Global Enterprise Customers",
                 valid_from="2026-06-01",
@@ -145,7 +145,7 @@ class TemporalKnowledgeGraph:
             ),
             TemporalFact(
                 id="FACT-METRIC-003",
-                entity="Inkloom Verity",
+                entity="AEGIS-Brand",
                 attribute="Review Cycle Turnaround",
                 value="Reduces turnaround from 4.5 days to < 4 hours (75% reduction)",
                 valid_from="2025-01-01",

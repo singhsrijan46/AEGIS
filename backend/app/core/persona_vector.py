@@ -95,7 +95,7 @@ class PersonaVectorScorer:
                     f"and Authority is {target_persona.authority:.2f} (measured: {measured.authority:.2f}). "
                     f"Replace conversational colloquialisms with clear, objective executive terminology."
                 ),
-                cited_source="Inkloom Enterprise Brand Standards Manual v4.2, Section 3.1: Voice Spectrum",
+                cited_source="AEGIS-Brand™ Global Governance & Defense Standard v4.0, Section 3.1: Voice Spectrum",
                 rule_id="RULE-VOICE-001",
                 suggested_edit="Adopt formal, direct executive prose while preserving narrative clarity.",
                 confidence=0.88,

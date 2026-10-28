@@ -69,7 +69,7 @@ export function App() {
             compliance_score: res.summary.compliance_score,
             tier: res.summary.tier,
             status: res.summary.publishing_status,
-            issuer: 'Inkloom Verity Engine v2.4'
+            issuer: 'AEGIS-Brand™ Automated Enterprise Governance & Integrity Suite v4.0'
           },
           ...prev
         ]);

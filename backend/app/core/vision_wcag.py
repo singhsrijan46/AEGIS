@@ -189,7 +189,7 @@ class MultimodalVisualAuditor:
                     measured_value=round(min_delta_e, 2),
                     threshold_value=2.0,
                     passed=False,
-                    citation="Inkloom Design System & Token Specifications, Section 1.2: Brand Colors, Page 8",
+                    citation="AEGIS Design System & Token Specifications, Section 1.2: Brand Colors, Page 8",
                     suggestion=f"Snap to official brand hex: {closest_brand_swatch[1]}"
                 ))
 
@@ -240,7 +240,7 @@ class MultimodalVisualAuditor:
                     measured_value=round(actual_ar, 2),
                     threshold_value=target_ar,
                     passed=False,
-                    citation="Inkloom Enterprise Brand Standards Manual v4.2, Section 1.4: Logo Geometry, Page 14",
+                    citation="AEGIS-Brand™ Global Governance & Defense Standard v4.0, Section 1.4: Logo Geometry, Page 14",
                     suggestion=f"Constrain logo scaling proportions to {target_ar:.2f}:1.",
                     bounding_box=asset.logo_bbox
                 ))
@@ -259,7 +259,7 @@ class MultimodalVisualAuditor:
                     measured_value=round(min(lx, ly, asset.width - (lx + lw), asset.height - (ly + lh)), 1),
                     threshold_value=round(m, 1),
                     passed=False,
-                    citation="Inkloom Enterprise Brand Standards Manual v4.2, Section 1.5: Logo Protection Clear Space, Page 15",
+                    citation="AEGIS-Brand™ Global Governance & Defense Standard v4.0, Section 1.5: Logo Protection Clear Space, Page 15",
                     suggestion=f"Provide at least {m:.1f}px margin around all 4 sides of the logo.",
                     bounding_box=[int(lx - m), int(ly - m), int(lw + 2*m), int(lh + 2*m)]
                 ))
@@ -267,8 +267,8 @@ class MultimodalVisualAuditor:
         # 4. Alt-Text Accessibility Audit
         if not asset.has_alt_text or len(asset.alt_text.strip()) < 10:
             suggested_alt = (
-                f"Marketing graphic for Inkloom Verity showing enterprise brand governance platform "
-                f"with in-line linting and factual claim verification features."
+                f"Marketing graphic for AEGIS-Brand showing automated enterprise governance and "
+                f"multimodal content verification features."
             )
             findings.append(VisualFinding(
                 asset_id=asset.id,

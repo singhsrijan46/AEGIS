@@ -37,7 +37,7 @@ export const VisualAssetInspector: React.FC = () => {
     setLogoMargin(50);
     setTextColor('#F8FAFC');
     setTestHex('#00A896');
-    setAltText('Official promotional banner for Inkloom Verity pre-publication brand governance platform.');
+    setAltText('Official promotional banner for AEGIS-Brand pre-publication governance and verification suite.');
   };
 
   return (
@@ -91,7 +91,7 @@ export const VisualAssetInspector: React.FC = () => {
             >
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <div style={{ width: '28px', height: '28px', background: testHex, borderRadius: '6px' }} />
-                <span style={{ fontWeight: 800, fontSize: '16px', letterSpacing: '0.5px' }}>INKLOOM VERITY</span>
+                <span style={{ fontWeight: 800, fontSize: '16px', letterSpacing: '0.5px' }}>AEGIS-BRAND™</span>
               </div>
 
               {isSafeZoneViolated && (
@@ -283,7 +283,7 @@ export const VisualAssetInspector: React.FC = () => {
           <button
             className="btn btn-secondary"
             style={{ width: '100%', fontSize: '11px' }}
-            onClick={() => setAltText('Inkloom Verity enterprise marketing banner with verified compliance metrics.')}
+            onClick={() => setAltText('AEGIS-Brand enterprise marketing banner with verified compliance metrics.')}
           >
             <Sparkles size={12} />
             Generate ScreenAI Alt-Text

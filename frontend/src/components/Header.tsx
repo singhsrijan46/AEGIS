@@ -22,9 +22,9 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
         <div className="brand-text">
           <h1>
-            Inkloom Verity™ <span>v2.4 Enterprise</span>
+            AEGIS-Brand™ <span>v4.0 Defense</span>
           </h1>
-          <p>Intelligent Pre-Publication Brand Governance & Verification</p>
+          <p>Automated Enterprise Governance & Integrity Suite</p>
         </div>
       </div>
 

@@ -9,10 +9,10 @@ def test_end_to_end_bad_draft_audit():
     cms = CMSPublishingGateway(engine.ledger)
 
     bad_draft = (
-        "Inkloom Verity is dirt cheap and provides guaranteed 10X ROI. "
+        "AEGIS-Brand is dirt cheap and provides guaranteed 10X ROI. "
         "It is the only FedRAMP High certified solution offering 99.999% uptime for $49/month. "
         "We increased conversions by 310% from 2.1% to 6.5%. "
-        "Contact sales@inkloom.internal for Project Titan rollout."
+        "Contact sales@aegis-defense.internal for Project Titan rollout."
     )
 
     request = DocumentAuditRequest(
@@ -54,7 +54,7 @@ def test_end_to_end_compliant_draft_audit():
     cms = CMSPublishingGateway(engine.ledger)
 
     good_draft = (
-        "Inkloom Verity™ delivers cost-effective enterprise brand governance with an audited 99.95% contractual uptime SLA. "
+        "AEGIS-Brand™ delivers cost-effective enterprise brand governance with an audited 99.95% contractual uptime SLA. "
         "Our SOC 2 Type II certified infrastructure empowers enterprise marketing teams to accelerate pre-publication reviews. "
         "Verified customer benchmarks demonstrate an average 31% conversion uplift across active deployments."
     )

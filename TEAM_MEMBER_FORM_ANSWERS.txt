@@ -1,5 +1,5 @@
 ================================================================================
-VERIBRAND AI™ — CODEX 48 HACKATHON
+AEGIS-BRAND™ (AUTOMATED ENTERPRISE GOVERNANCE & INTEGRITY SUITE) — CODEX 48
 TEAM MEMBER SUBMISSION FORM ANSWERS (3 MEMBERS)
 ================================================================================
 
@@ -19,7 +19,7 @@ ML, NLP Research, Knowledge Graphs, Prompt Engineering, Backend
 Explain your Solution in 4-5 lines *
 
 ANSWER:
-VeriBrand AI™ is an enterprise pre-publication governance platform that verifies marketing collateral against brand guidelines, regulatory rules, and factual records in real time. It decomposes draft text into verifiable atomic claims using enhanced fact-checking models (E-AFV) and validates them against an enterprise Temporal Knowledge Graph. For visual assets, it enforces deterministic pixel-level colorimetry and WCAG accessibility standards. When violations are detected, it generates intent-preserving, minimal-perturbation rewrites directly inside authoring tools like Google Docs and Figma.
+AEGIS-Brand™ (Automated Enterprise Governance & Integrity Suite) is an enterprise pre-publication governance platform that verifies marketing collateral against brand guidelines, regulatory rules, and factual records in real time. It decomposes draft text into verifiable atomic claims using enhanced fact-checking models (E-AFV) and validates them against an enterprise Temporal Knowledge Graph. For visual assets, it enforces deterministic pixel-level colorimetry and WCAG accessibility standards. When violations are detected, it generates intent-preserving, minimal-perturbation rewrites directly inside authoring tools like Google Docs and Figma.
 
 
 [QUESTION 3]
@@ -91,7 +91,7 @@ Computer Vision, Multimodal AI, Security, Infrastructure & DevOps
 Explain your Solution in 4-5 lines *
 
 ANSWER:
-VeriBrand AI™ is an enterprise brand-governance and pre-publication verification platform that prevents off-brand, non-compliant, or factually inaccurate content from reaching production. It combines atomic NLP claim verification with deterministic OpenCV computer vision for exact pixel-level brand color and accessibility auditing. Operating within an air-gapped private VPC, it guarantees zero data leakage for embargoed corporate collateral. It replaces manual compliance bottlenecks with real-time in-line review diffs and automated CMS publishing gates.
+AEGIS-Brand™ is an enterprise brand-governance and pre-publication verification platform that prevents off-brand, non-compliant, or factually inaccurate content from reaching production. It combines atomic NLP claim verification with deterministic OpenCV computer vision for exact pixel-level brand color and accessibility auditing. Operating within an air-gapped private VPC, it guarantees zero data leakage for embargoed corporate collateral. It replaces manual compliance bottlenecks with real-time in-line review diffs and automated CMS publishing gates.
 
 
 [QUESTION 3]
@@ -163,7 +163,7 @@ Frontend, Backend, UI/UX Design, Extensions & API Integrations
 Explain your Solution in 4-5 lines *
 
 ANSWER:
-VeriBrand AI™ is an in-flight brand governance and content verification platform that integrates directly into enterprise authoring workflows. It audits marketing copy and creative banners in real time against approved brand books, regulatory requirements, and factual databases. Violations are flagged with in-line, color-coded diff suggestions that preserve the author's voice rather than performing destructive rewrites. It features automated tiered approvals, CMS publishing webhooks, and guideline friction analytics.
+AEGIS-Brand™ is an in-flight brand governance and content verification platform that integrates directly into enterprise authoring workflows. It audits marketing copy and creative banners in real time against approved brand books, regulatory requirements, and factual databases. Violations are flagged with in-line, color-coded diff suggestions that preserve the author's voice rather than performing destructive rewrites. It features automated tiered approvals, CMS publishing webhooks, and guideline friction analytics.
 
 
 [QUESTION 3]

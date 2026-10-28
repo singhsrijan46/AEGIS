@@ -18,7 +18,8 @@ def test_brand_vault_rules_and_tokens():
     assert vault.prohibited_lexicon["cheap"]["replacement"] == "cost-effective"
 
     # Verify trademark registry
-    assert vault.trademark_registry["Inkloom Verity"] == "Inkloom Verity™"
+    assert vault.trademark_registry["AEGIS-Brand"] == "AEGIS-Brand™"
+    assert vault.trademark_registry["AEGIS"] == "AEGIS™"
 
 
 def test_temporal_kg_queries():

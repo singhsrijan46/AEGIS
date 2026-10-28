@@ -129,7 +129,7 @@ function simulateAudit(text: string, title: string, department: string, images: 
       severity: 'WARNING',
       title: "Prohibited Terminology: 'cheap'",
       explanation: "Devalues enterprise positioning. Replace with 'cost-effective' or 'capital-efficient'.",
-      cited_source: 'Inkloom Enterprise Brand Standards Manual v4.2, Section 2.4, Page 18',
+      cited_source: 'AEGIS-Brand™ Global Governance & Defense Standard v4.0, Section 2.4, Page 18',
       rule_id: 'RULE-LEX-001',
       suggested_edit: 'cost-effective',
       confidence: 1.0
@@ -137,21 +137,29 @@ function simulateAudit(text: string, title: string, department: string, images: 
   }
 
   // Trademark check
-  const tmIdx = text.indexOf('Inkloom Verity');
-  if (tmIdx !== -1 && !text.substring(tmIdx).startsWith('Inkloom Verity™')) {
-    findings.push({
-      id: 'sim-tm',
-      span: [tmIdx, tmIdx + 14],
-      flagged_text: 'Inkloom Verity',
-      category: 'LEXICAL',
-      severity: 'WARNING',
-      title: "Missing Trademark Symbol: 'Inkloom Verity'",
-      explanation: "Mandatory corporate trademark policy requires appending ™ on first occurrence.",
-      cited_source: 'Corporate Legal IP & Trademark Register 2026, Section 1.1, Page 4',
-      rule_id: 'RULE-LEX-002',
-      suggested_edit: 'Inkloom Verity™',
-      confidence: 1.0
-    });
+  const checkMarks = [
+    { target: 'AEGIS-Brand', full: 'AEGIS-Brand™' },
+    { target: 'AEGIS', full: 'AEGIS™' },
+    { target: 'Inkloom Verity', full: 'AEGIS-Brand™' }
+  ];
+  for (const mark of checkMarks) {
+    const tmIdx = text.indexOf(mark.target);
+    if (tmIdx !== -1 && !text.substring(tmIdx).startsWith(mark.full)) {
+      findings.push({
+        id: `sim-tm-${mark.target}`,
+        span: [tmIdx, tmIdx + mark.target.length],
+        flagged_text: mark.target,
+        category: 'LEXICAL',
+        severity: 'WARNING',
+        title: `Missing Trademark Symbol: '${mark.target}'`,
+        explanation: "Mandatory corporate trademark policy requires appending ™ on first occurrence.",
+        cited_source: 'AEGIS IP & Global Trademark Register 2026, Section 1.1, Page 4',
+        rule_id: 'RULE-LEX-002',
+        suggested_edit: mark.full,
+        confidence: 1.0
+      });
+      break;
+    }
   }
 
   // 99.999% SLA hallucination
@@ -182,7 +190,7 @@ function simulateAudit(text: string, title: string, department: string, images: 
       category: 'FACT',
       severity: 'BLOCKER',
       title: 'Hallucinated Security Certification (FedRAMP High)',
-      explanation: "Enterprise records confirm Inkloom is FedRAMP Moderate Ready undergoing PMO review, NOT FedRAMP High certified.",
+      explanation: "Enterprise records confirm AEGIS is FedRAMP Moderate Ready undergoing PMO review, NOT FedRAMP High certified.",
       cited_source: 'Federal Agency Security Assessment Register, Section 3, Page 14',
       rule_id: 'RULE-FACT-001',
       suggested_edit: 'FedRAMP Moderate Ready',

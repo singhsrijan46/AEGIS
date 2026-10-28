@@ -21,7 +21,7 @@ export const CMSGateSimulator: React.FC<CMSGateSimulatorProps> = ({ latestToken,
       allowed: isSuccess,
       message: isSuccess
         ? `[HTTP 200 OK] Published to ${selectedCMS.toUpperCase()}. Verified with cryptographic token ${tokenInput}.`
-        : `[HTTP 403 FORBIDDEN] Blocked by Inkloom Verity pre-publish webhook. Draft lacks a valid Green-Tier certificate.`
+        : `[HTTP 403 FORBIDDEN] Blocked by AEGIS-Brand™ pre-publish defense webhook. Draft lacks a valid Green-Tier certificate.`
     };
     setPublishLog([logEntry, ...publishLog]);
   };
@@ -35,7 +35,7 @@ export const CMSGateSimulator: React.FC<CMSGateSimulatorProps> = ({ latestToken,
           <h2 style={{ fontSize: '18px' }}>Pre-Publish CMS Blocking Gateway Simulator</h2>
         </div>
         <p style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '24px', lineHeight: '1.5' }}>
-          In production, Inkloom Verity webhooks intercept the publish transitions in WordPress, Webflow,
+          In production, AEGIS-Brand™ webhooks intercept the publish transitions in WordPress, Webflow,
           and Contentful. Drafts without a verified Green Tier certificate are structurally blocked from public broadcast.
         </p>
 
@@ -149,13 +149,13 @@ export const CMSGateSimulator: React.FC<CMSGateSimulatorProps> = ({ latestToken,
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>
-            <div style={{ width: '20px', height: '20px', background: 'var(--teal-primary)', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontSize: '10px', fontWeight: 900 }}>V</div>
-            <strong style={{ fontSize: '12px', color: '#fff' }}>Inkloom Verity Bot</strong>
+            <div style={{ width: '20px', height: '20px', background: 'var(--teal-primary)', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontSize: '10px', fontWeight: 900 }}>A</div>
+            <strong style={{ fontSize: '12px', color: '#fff' }}>AEGIS Defense Sentinel Bot</strong>
             <span style={{ fontSize: '10px', color: 'var(--text-muted)' }}>APP 2:45 PM</span>
           </div>
 
           <div style={{ fontSize: '13px', fontWeight: 700, color: '#fff', marginBottom: '8px' }}>
-            🛡️ Pre-Publication Review Alert: {documentTitle}
+            🛡️ AEGIS Audit Alert: {documentTitle}
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', fontSize: '11px', color: 'var(--text-secondary)', background: 'rgba(0,0,0,0.2)', padding: '10px', borderRadius: '6px', marginBottom: '12px' }}>

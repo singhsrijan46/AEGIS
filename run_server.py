@@ -1,5 +1,5 @@
 """
-Inkloom Verity Governance API Server Runner
+AEGIS-Brand™ Governance API Server Runner
 """
 
 import uvicorn
