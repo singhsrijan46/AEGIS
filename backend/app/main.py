@@ -46,7 +46,32 @@ cms_gateway = CMSPublishingGateway(engine.ledger)
 telemetry_engine = AmbiguityTelemetryEngine()
 
 
-@app.get("/api/health")
+@app.get("/", tags=["Health"])
+@app.head("/", tags=["Health"])
+def root_endpoint():
+    """
+    Root status and health check endpoint for Render, AWS, and uptime monitors.
+    """
+    return {
+        "status": "healthy",
+        "service": "AEGIS-Brand™ Automated Enterprise Governance & Integrity Suite API",
+        "version": "4.0.0",
+        "codename": "DEFCON-INTEGRITY",
+        "endpoints": {
+            "swagger_docs": "/docs",
+            "redoc": "/redoc",
+            "health": "/api/health",
+            "audit": "/api/audit",
+            "visual_audit": "/api/audit/visual",
+            "brand_vault": "/api/brand-vault/rules",
+            "temporal_kg": "/api/brand-vault/facts",
+            "telemetry": "/api/telemetry/friction"
+        }
+    }
+
+
+@app.get("/api/health", tags=["Health"])
+@app.head("/api/health", tags=["Health"])
 def health_check():
     return {
         "status": "healthy",

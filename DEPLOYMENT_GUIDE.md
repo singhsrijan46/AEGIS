@@ -9,7 +9,7 @@ This guide provides step-by-step instructions to deploy **AEGIS-Brand™** to pr
 | Component | Technology | Recommended Host | Production URL Example |
 |---|---|---|---|
 | **Frontend Studio** | React 19 + TypeScript + Vite | **Vercel** (or Netlify/Cloudflare Pages) | `https://aegis-brand.vercel.app` |
-| **Backend Engine** | Python 3.11 + FastAPI + Uvicorn | **Render** (or Railway / Fly.io / Hugging Face) | `https://aegis-backend.onrender.com` |
+| **Backend Engine** | Python 3.11 + FastAPI + Uvicorn | **Render** (Live) | `https://aegis-backend-y1it.onrender.com` |
 
 > [!TIP]
 > **Zero-Friction Fallback for Judges:** The frontend API client has a built-in fallback simulation engine. Even if you deploy *only* the frontend on Vercel initially, judges will still be able to run interactive audits on benchmark drafts, inspect visual assets, test CMS gates, and view ambiguity heatmaps with zero downtime.

@@ -14,9 +14,11 @@
 
 [![GitHub Pages Deployment](https://img.shields.io/badge/Deployed%20Live-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://singhsrijan46.github.io/AEGIS/)
 [![Vercel Deployment](https://img.shields.io/badge/CDN%20Mirror-Vercel-black?style=for-the-badge&logo=vercel)](https://aegis-singhsrijan46.vercel.app)
+[![Render Backend](https://img.shields.io/badge/API%20Engine-Render-46E3B7?style=for-the-badge&logo=render)](https://aegis-backend-y1it.onrender.com)
 [![Repository](https://img.shields.io/badge/GitHub-singhsrijan46%2FAEGIS-181717?style=for-the-badge&logo=github)](https://github.com/singhsrijan46/AEGIS)
 
 - 🌐 **Live Deployed Studio:** [https://singhsrijan46.github.io/AEGIS/](https://singhsrijan46.github.io/AEGIS/)
+- ⚡ **Live Deployed Backend API:** [https://aegis-backend-y1it.onrender.com/](https://aegis-backend-y1it.onrender.com/) *(Interactive OpenAPI Docs at [/docs](https://aegis-backend-y1it.onrender.com/docs))*
 - 💻 **Source Code Repository:** [https://github.com/singhsrijan46/AEGIS](https://github.com/singhsrijan46/AEGIS)
 - 📝 **Round 2 Submission Form Answers:** [ROUND_2_SUBMISSION_ANSWERS.md](file:///d:/AEGIS/ROUND_2_SUBMISSION_ANSWERS.md)
 - 🚀 **Live Deployment Guide:** [DEPLOYMENT_GUIDE.md](file:///d:/AEGIS/DEPLOYMENT_GUIDE.md)
