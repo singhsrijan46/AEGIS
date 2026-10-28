@@ -10,6 +10,9 @@
 > • **G**overnance &  
 > • **I**ntegrity  
 > • **S**uite  
+> **Live Deployed Studio:** [https://aegis-tau-gray.vercel.app/](https://aegis-tau-gray.vercel.app/)  
+> **Live Backend API & Docs:** [https://aegis-backend-yl1t.onrender.com/docs](https://aegis-backend-yl1t.onrender.com/docs)  
+> **Source-Code Repository:** [https://github.com/singhsrijan46/AEGIS](https://github.com/singhsrijan46/AEGIS)  
 > **Theme:** Enterprise AI / Responsible AI, Trust & Digital Governance  
 > **Track:** Software / Multimodal Enterprise SaaS  
 > **Team Structure:** 3 Core Members (Equitably Distributed Engineering & Product Ownership)  
@@ -36,6 +39,10 @@
 │                                                                                        │
 │   • PS Category — Software (Multimodal Enterprise Agentic SaaS)                        │
 │                                                                                        │
+│   • Live Demo — https://aegis-tau-gray.vercel.app/                                     │
+│   • Backend API — https://aegis-backend-yl1t.onrender.com/docs                         │
+│   • GitHub Repo — https://github.com/singhsrijan46/AEGIS                               │
+│                                                                                        │
 │   • Team Size — 3 Core Members                                                         │
 │     [Member 1: AI/NLP Lead | Member 2: Vision/Security | Member 3: Full-Stack/Product] │
 └────────────────────────────────────────────────────────────────────────────────────────┘
@@ -46,15 +53,18 @@
 *   **Event:** CodeX 48 Hackathon
 *   **Problem Statement:** Inkloom AI Brand-Governance Problem Statement
 *   **Project Title:** **AEGIS-Brand™ — Automated Enterprise Governance & Integrity Suite for Multimodal Content Verification**
+*   **Live Deployed Application:** [https://aegis-tau-gray.vercel.app/](https://aegis-tau-gray.vercel.app/)
+*   **Live Backend API & Interactive Docs:** [https://aegis-backend-yl1t.onrender.com/docs](https://aegis-backend-yl1t.onrender.com/docs)
+*   **Source Code Repository:** [https://github.com/singhsrijan46/AEGIS](https://github.com/singhsrijan46/AEGIS)
 *   **Track:** Enterprise AI / Responsible AI & Digital Governance
 *   **PS Category:** Software (Multimodal Enterprise Agentic SaaS)
 *   **Team Composition (3 Members):**
     - **Member 1 (AI / NLP Lead):** Fact Verification, KG-RAG, & Intent-Preserving Rewriting
     - **Member 2 (Vision & Security Lead):** Multimodal CV, WCAG Accessibility, & Air-Gapped Privacy
-    - **Member 3 (Full-Stack & Product Lead):** Next.js Portal, Editor Plugins, & Governance Telemetry
+    - **Member 3 (Full-Stack & Product Lead):** Next.js/React Portal, Editor Plugins, & Governance Telemetry
 
 ### Speaker Script (30 Seconds)
-> *"Judges and mentors, welcome to our CodeX 48 presentation. As organizations scale, publishing content through multiple employees, agencies, and generative AI tools has caused an alarming brand integrity crisis: unvetted claims, outdated pricing, tone erosion, and off-brand visuals slip into public view before anyone notices. We built **AEGIS-Brand™** (Automated Enterprise Governance & Integrity Suite)—a defense-grade, pre-publication governance platform that reviews content against approved guidelines, verifies claims against a private temporal knowledge graph, audits multimodal design assets, and provides explainable, intent-preserving corrections before content is published."*
+> *"Judges and mentors, welcome to our CodeX 48 presentation. As organizations scale, publishing content through multiple employees, agencies, and generative AI tools has caused an alarming brand integrity crisis: unvetted claims, outdated pricing, tone erosion, and off-brand visuals slip into public view before anyone notices. We built **AEGIS-Brand™** (Automated Enterprise Governance & Integrity Suite)—a defense-grade, pre-publication governance platform deployed live today on Vercel and Render. It reviews content against approved guidelines, verifies claims against a private temporal knowledge graph, audits multimodal design assets, and provides explainable, intent-preserving corrections before content is published."*
 
 ---
 
@@ -168,8 +178,8 @@
 #### Block 5: Deployment & Operation
 *   **Near-Real-Time (NRT) Gate:** Pre-publish webhook for WordPress, Webflow, and Contentful (blocks publish if Red Blocker exists).
 *   **Interactive Slack/Teams Bots:** 1-click approval routing for managers on Amber-tier drafts.
-*   **Cryptographic Audit Log:** SHA-256 signed compliance tokens recorded in PostgreSQL for regulatory inspection.
-*   **Prototype Demo Video:** `[Click Here to View 2-Min Prototype Demo]`
+*   **Live Deployed Demonstration:** [https://aegis-tau-gray.vercel.app/](https://aegis-tau-gray.vercel.app/)
+*   **Live Backend API Server:** [https://aegis-backend-yl1t.onrender.com/docs](https://aegis-backend-yl1t.onrender.com/docs)
 
 ### Speaker Script (60 Seconds)
 > *"Slide 3 outlines our technical stack and implementation pipeline. In Block 1, we combine high-speed deterministic tools with agentic reasoning: LangGraph for orchestration, Neo4j for our temporal knowledge graph, and OpenCV for exact colorimetry. In Block 2, our 7-step pipeline adaptively extracts atomic propositions, queries private internal records, and validates visual assets. In Block 4, our evaluation benchmarks prove over 99.4% factual precision with a sub-1.2s response time. The system integrates directly as an in-context sidebar inside Google Docs, Figma, and Webflow."*
@@ -317,9 +327,11 @@
 │   (SAFE)     │   (CRITIC)   │   (ScreenAI) │   (CoT)      │   (RAGAS)                  │
 ├──────────────┴──────────────┴──────────────┴──────────────┴────────────────────────────┤
 │ DATA & RESOURCE LINKS:                                                                 │
+│ • Live Deployed Studio: https://aegis-tau-gray.vercel.app/                             │
+│ • Backend API & Swagger: https://aegis-backend-yl1t.onrender.com/docs                   │
+│ • Source Code Repo: https://github.com/singhsrijan46/AEGIS                             │
 │ • Local PDF Corpus: 20 Research Papers archived in research_papers/                    │
 │ • Master Spec: Inkloom_Brand_Governance_Platform_Solution.md                           │
-│ • Prototype Video & Code Repo: [Click Here]                                            │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -355,9 +367,13 @@
     - Es, S., et al. (2023) *RAGAS: Automated Evaluation of Retrieval Augmented Generation.*
 
 #### Bottom Data & Resource Links:
-*   **Local Research Corpus:** 20 Full-Text PDFs archived locally in [`research_papers/`](file:///d:/New%20folder/research_papers/)
-*   **Master Technical Specification:** [`Inkloom_Brand_Governance_Platform_Solution.md`](file:///d:/New%20folder/Inkloom_Brand_Governance_Platform_Solution.md)
-*   **Prototype Demo & Code Repository:** `[Click Here to Access]`
+*   **Live Deployed Studio (Vercel):** [https://aegis-tau-gray.vercel.app/](https://aegis-tau-gray.vercel.app/)
+*   **Live Backend API Engine (Render):** [https://aegis-backend-yl1t.onrender.com/docs](https://aegis-backend-yl1t.onrender.com/docs)
+*   **Public Source-Code Repository:** [https://github.com/singhsrijan46/AEGIS](https://github.com/singhsrijan46/AEGIS)
+*   **Local Research Corpus:** 20 Full-Text PDFs archived locally in [`research_papers/`](file:///d:/AEGIS/research_papers/)
+*   **Master Technical Specification:** [`Inkloom_Brand_Governance_Platform_Solution.md`](file:///d:/AEGIS/Inkloom_Brand_Governance_Platform_Solution.md)
+*   **Round 2 Submission Form Answers:** [`ROUND_2_SUBMISSION_ANSWERS.md`](file:///d:/AEGIS/ROUND_2_SUBMISSION_ANSWERS.md)
+*   **Deployment Guide:** [`DEPLOYMENT_GUIDE.md`](file:///d:/AEGIS/DEPLOYMENT_GUIDE.md)
 
 ### Speaker Script (45 Seconds)
 > *"Finally, on Slide 6, AEGIS-Brand™ is built on the proven findings of 20 foundational peer-reviewed papers from NeurIPS, ACL, EMNLP, ACM CHI, and Google DeepMind. By combining FActScore's atomic extraction, Meta's decoupled verification, Anthropic's Constitutional AI, and LayoutLMv3's multimodal layout modeling, we created the first air-gapped, intent-preserving brand governance platform. All 20 research papers are verified and downloaded in our repository. Thank you, and we welcome your questions!"*
