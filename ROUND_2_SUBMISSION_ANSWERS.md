@@ -25,9 +25,9 @@ This document provides exact, copy-paste ready answers for the **Round 2 Submiss
 > *A deployed link, installation package or clear functional demonstration.*
 
 ```text
-https://singhsrijan46.github.io/AEGIS/
+https://aegis-tau-gray.vercel.app/
 ```
-*(Live Backend API & OpenAPI Docs: `https://aegis-backend-y1it.onrender.com/docs` | Vercel Mirror: `https://aegis-singhsrijan46.vercel.app`)*
+*(Live Backend API & OpenAPI Docs: `https://aegis-backend-yl1t.onrender.com/docs` | Secondary Mirror: `https://singhsrijan46.github.io/AEGIS/`)*
 
 #### Source-Code Repository *
 > *A public or judge-accessible source-code repository.*
